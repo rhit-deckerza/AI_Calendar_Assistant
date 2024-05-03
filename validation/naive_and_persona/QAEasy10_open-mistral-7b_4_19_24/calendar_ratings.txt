@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The 'system_actual' is missing, providing no data to compare against the 'system'. This results in a complete mismatch as there are no events to compare.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'system_actual' is missing, providing no data to compare for both scheduled events in 'system'. This results in a complete mismatch as there are no events to compare.",
+        "score": 0
+    },
+    {
+        "reasoning": "There is one extra event in 'system_actual' not present in 'system', and the start and end recurrence dates for one of the events do not match those specified in 'system'. This leads to significant discrepancies.",
+        "score": 3
+    },
+    {
+        "reasoning": "The 'system_actual' is missing, providing no data to compare against the 'system'. This results in a complete mismatch as there are no events to compare.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'system_actual' is missing, providing no data to compare against the 'system'. This results in a complete mismatch as there are no events to compare.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'system_actual' is missing, providing no data to compare against the 'system'. This results in a complete mismatch as there are no events to compare.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'system_actual' contains incomplete and improperly formatted events. The 'endTime' is missing for the first event, and the second event has placeholder values for 'startRecur' and 'endRecur' and lacks time attributes. This makes the calendar invalid according to given criteria.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'system_actual' is missing, providing no data to compare against the 'system'. This results in a complete mismatch as there are no events to compare.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'daysOfWeek' do not match between 'system' and 'system_actual', and the event has a different title. Furthermore, 'startRecur' and 'endRecur' dates are missing from 'system_actual', essential for defining the event.",
+        "score": 1
+    },
+    {
+        "reasoning": "The calendars are completely identical.",
+        "score": 10
+    }
+]

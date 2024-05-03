@@ -1,0 +1,62 @@
+[
+    {
+        "clarity_reasoning": "The response clearly describes the addition of a recurring morning meditation from 6am to 6:30am daily. The information provided is straightforward and aligns with the typical setup of a recurring event.",
+        "accuracy_reasoning": "The response accurately describes a morning meditation added to the calendar every day from 6am to 6:30am, as requested by the user. However, the response does not address the duration of recurrence for this event, which should be specified to be 20 years from the start date per the instructions.",
+        "clarity": 9,
+        "accuracy": 8
+    },
+    {
+        "clarity_reasoning": "The system's answer clearly states the addition of a weekly team meeting on Tuesdays from 10 AM to 12 PM.",
+        "accuracy_reasoning": "The system accurately handles the user's request to add weekly team meetings on Tuesdays at 10 AM for 2 hours. However, the response does not mention the specific details such as the duration of recurrence, 20 years from the start date.",
+        "clarity": 10,
+        "accuracy": 8
+    },
+    {
+        "clarity_reasoning": "The system clearly explains the process of moving the weekly team meeting from Tuesday to Thursday from 10:00 to 12:00 due to a conflict with another appointment.",
+        "accuracy_reasoning": "The accuracy is high as the system correctly identifies the existing Tuesday meeting to be moved to Thursday at the same time, fully aligning with the user's request.",
+        "clarity": 10,
+        "accuracy": 10
+    },
+    {
+        "clarity_reasoning": "The response clearly states the availability for a new class in the evening and provides two time slot suggestions, although it does not specify them in detail.",
+        "accuracy_reasoning": "The response diverges slightly from the user’s request as the user asked for time recommendations for an evening class but did not explicitly ask for the event to be added. The response suggests options but lacks the precision in the options' definition (exact times).",
+        "clarity": 8,
+        "accuracy": 7
+    },
+    {
+        "clarity_reasoning": "The response clearly states that 'Marketing Meetings' will be added every Tuesday and Thursday starting from April 23rd, 2024, at 10:00 AM.",
+        "accuracy_reasoning": "The response accurately captures the user's request to schedule marketing meetings starting next week on Tuesday and Thursday. However, the response inaccurately states these meetings last for only an hour when the user did not specify a duration, risking a potential misunderstanding.",
+        "clarity": 9,
+        "accuracy": 7
+    },
+    {
+        "clarity_reasoning": "The reply clearly states that the Yoga sessions will be moved to Fridays starting at 7:30 AM.",
+        "accuracy_reasoning": "The response accurately updates the timing and day for the Yoga sessions to Friday starting at 7:30 AM, aligning with the user's request. The response assumes the duration and recurrence which matches the typical setup unless specified otherwise.",
+        "clarity": 10,
+        "accuracy": 9
+    },
+    {
+        "clarity_reasoning": "The response clearly states the addition of a weekly family lunch every Sunday at noon, starting on April 21st, 2024.",
+        "accuracy_reasoning": "The response correctly meets the user's request for adding family lunch every Sunday at noon, setting the start date appropriately. However, the ending of the recurrence isn’t specified to be 20 years from the start date.",
+        "clarity": 10,
+        "accuracy": 8
+    },
+    {
+        "clarity_reasoning": "The response clearly indicates that it understands the request to cancel all Marketing Meetings starting from the next month and the action to alter the end recurrence date.",
+        "accuracy_reasoning": "The system correctly identifies the need to cancel future marketing meetings starting from the next month. It plans to change the end recurrence date to the last day of the current month, which accurately fulfills the user's request.",
+        "clarity": 10,
+        "accuracy": 10
+    },
+    {
+        "clarity_reasoning": "The system provides a clear response by stating it will add a new recurring event for the job from 9 AM to 5 PM, Monday through Friday.",
+        "accuracy_reasoning": "The system accurately fulfills the user’s request to block off time for the new job from 9 AM to 5 PM, Monday to Friday. However, it lacks specific details on the start and end dates of the recurrence which should be specified to be 20 years from the start.",
+        "clarity": 9,
+        "accuracy": 8
+    },
+    {
+        "clarity_reasoning": "The response clearly states that the duration of the Family Lunch event has been modified to last two hours, from noon until 2 PM.",
+        "accuracy_reasoning": "The accuracy is perfect as the response directly addresses the user's request, changing the Family Lunch event duration from one hour to two hours, exactly as requested.",
+        "clarity": 10,
+        "accuracy": 10
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The second calendar has multiple discrepancies in the event attributes compared to the first calendar. The 'Engineering Standup' events are not split into separate entries for Tuesdays and Thursdays, and the 'Sales Standup' is combined into one event with incorrect color and starting from incorrect dates. This causes a significant mismatch.",
+        "score": 3
+    },
+    {
+        "reasoning": "The second calendar misses one event completely ('Weekly Team Lunch') and has incorrect time for another event ('Team Lunch'). This is a large deviation from the first calendar and thus receives a moderate score.",
+        "score": 4
+    },
+    {
+        "reasoning": "The second calendar adds extra events that do not exist in the system calendar and has multiple instances of missing required attributes like 'startRecur' and 'endRecur' for some events. This points to significant issues with the integrity of the events list.",
+        "score": 2
+    },
+    {
+        "reasoning": "While the titles and color attributes in the second calendar match some of those in 'system', the event for 'Bi-Weekly Training Session for Junior Staff' has significantly altered days and times. Significant points are deducted for discrepancies in these crucial attributes.",
+        "score": 4
+    },
+    {
+        "reasoning": "The 'Brainstorming Session' in 'system_actual' has the wrong timing and color when compared to 'system'. Other attributes match between both calendars.",
+        "score": 6
+    },
+    {
+        "reasoning": "The calendars are exactly matching in events and attributes according to the defined parameters.",
+        "score": 10
+    },
+    {
+        "reasoning": "The 'Project Update' event mismatches by timing alone while the remaining attributes are correct.",
+        "score": 8
+    },
+    {
+        "reasoning": "Event attributes such as times and 'startRecur', 'endRecur' for 'Marketing Review' are different, lowering the similarity score significantly.",
+        "score": 5
+    },
+    {
+        "reasoning": "The 'Staff Meeting' color, 'All-Hands Meeting' time and date are mismatched. Moreover, the 'All-Hands Meeting' has incorrect recurrence dates, causing significant data loss and inconsistency.",
+        "score": 4
+    },
+    {
+        "reasoning": "The 'Junior Staff Training' event in the 'system_actual' calendar lacks the complexity and specificity of the 'system' with wrong title and timing. Missing crucial recurrence details further diminishes the score.",
+        "score": 3
+    }
+]

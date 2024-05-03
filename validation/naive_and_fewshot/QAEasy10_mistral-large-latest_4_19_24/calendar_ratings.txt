@@ -1,0 +1,38 @@
+[
+    {
+        "reasoning": "The event parameters for both 'system' and 'system_actual' are identical except for the title. 'Morning Meditation' in 'system' is written as 'Morning Meditations' in 'system_actual'. This minute discrepancy in the event title earns a score of 9 as all other parameters match perfectly.",
+        "score": 9
+    },
+    {
+        "reasoning": "The calendar events are identical in parameters including days, times, recurrence dates, and colors. The only difference lies in the titles of the second events: 'Weekly Team Meeting' vs. 'Team Meeting'. Due to the small variation in the title name, a score of 9 is appropriate.",
+        "score": 9
+    },
+    {
+        "reasoning": "The calendars are completely identical with the same title, day of recurrence, start and end times, recurrence dates, and color. This leads to a perfect match between 'system' and 'system_actual'.",
+        "score": 10
+    },
+    {
+        "reasoning": "The first event in both 'system' and 'system_actual' match perfectly. However, 'system_actual' contains an extra event ('Language Class') that is not found in 'system'. This deviation results in a score of 7 due to the presence of an additional unintended event.",
+        "score": 7
+    },
+    {
+        "reasoning": "The 'system' calendar and 'system_actual' calendar are completely identical with respect to the event's details, resulting in a perfect score.",
+        "score": 10
+    },
+    {
+        "reasoning": "The events match in all aspects like day, time, recurrence dates, and titles, but the start recurrent date is incorrect in 'system_actual' ('2024-04-22' instead of '2024-04-26'), leading to a minor deduction and a score of 9.",
+        "score": 9
+    },
+    {
+        "reasoning": "The 'system' calendar and 'system_actual' calendar are completely identical with respect to the event's details, leading to a perfect score.",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars have all event details exactly matched, including daysOfWeek, startTime, endTime, startRecur, endRecur, title, and color. However, they have different titles ('Work' in 'system' and 'New Job' in 'system_actual') and significant discrepancies in start recurrence dates ('2024-04-22' vs '2024-04-19'). Given these differences, a score of 9 is justified but considering the wrong starting date, the score goes down to 8.",
+        "score": 8
+    },
+    {
+        "reasoning": "The calendars are completely identical with respect to all attributes of the event. This results in a perfect match between 'system' and 'system_actual'.",
+        "score": 10
+    }
+]

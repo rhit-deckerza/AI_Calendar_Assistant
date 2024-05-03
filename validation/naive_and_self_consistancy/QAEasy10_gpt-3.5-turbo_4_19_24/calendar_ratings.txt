@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The 'system_actual' event lacks the 'daysOfWeek' attribute which is critical for the definition of the event's recurrence pattern.",
+        "score": 4
+    },
+    {
+        "reasoning": "All properties across both events in both calendars match except for the incorrect 'startRecur' date in the 'Weekly Team Meeting' event in 'system_actual'. The rest of the parameters align correctly.",
+        "score": 8
+    },
+    {
+        "reasoning": "The calendars are completely identical in terms of event properties including recurrence, duration, and titles.",
+        "score": 10
+    },
+    {
+        "reasoning": "The first event matches perfectly, but 'system_actual' contains an additional event not present in 'system'. This affects the accuracy as the additional event affects the overall calendar alignment.",
+        "score": 7
+    },
+    {
+        "reasoning": "While the key attributes like 'daysOfWeek', 'startRecur', and 'endRecur' match, the 'endTime' of the 'system_actual' is shorter by 30 minutes compared to the 'system', and also, 'allDay' attribute is missing in 'system_actual', which is critical for event definition.",
+        "score": 5
+    },
+    {
+        "reasoning": "Attributes match correctly; however, the start date ('startRecur') and end date ('endRecur') are wrong by 6 days earlier in 'system_actual' which might affect planned schedules.",
+        "score": 6
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "Everything matches except for the 'endRecur' which is off by one day in 'system_actual'. This minor discrepancy is non-trivial as it affects the expected recurrence of the event.",
+        "score": 9
+    },
+    {
+        "reasoning": "The times, recurrences, start and end dates, and days of occurrence match, but the title is slightly different ('Work hours' vs 'Work'), affecting the direct identification of the events.",
+        "score": 8
+    },
+    {
+        "reasoning": "While 'daysOfWeek', 'startTime', 'startRecur', and 'endRecur' match, the 'endTime' in 'system_actual' is an hour shorter than in 'system'. This difference in duration means the events aren't perfectly aligned.",
+        "score": 7
+    }
+]

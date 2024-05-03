@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The 'system_actual' calendar has multiple mismatches and additional events compared to 'system'. The first event has a different endRecur date and slightly different title ('Morning Meditations' instead of 'Morning Meditation'). Also, there are two additional events ('Work' and 'Yoga') not present in the 'system' calendar.",
+        "score": 3
+    },
+    {
+        "reasoning": "While 'system_actual' has a matching event (Weekly Team Meeting), its startRecur and endRecur dates differ from the 'system'. It also includes additional events not listed in the 'system' (Yoga and Work), and the title of the Team Meeting event has a slight difference ('Weekly Team Meetings' instead of 'Weekly Team Meeting').",
+        "score": 4
+    },
+    {
+        "reasoning": "The 'system_actual' calendar contains the correct event ('Weekly Team Meeting') but expands its occurrence from once a week to every weekday. Plus, there's an additional 'Work' event not in the original 'system' and the 'daysOfWeek' for 'Weekly Team Meeting' no longer matches the original.",
+        "score": 2
+    },
+    {
+        "reasoning": "The 'system_actual' calendar has no events matching the single event in 'system'. It contains entirely different events ('Yoga', 'Work', 'Language Class') with none reflecting 'Morning Meditation'.",
+        "score": 1
+    },
+    {
+        "reasoning": "The first event in 'system_actual' is missing 'endTime', an essential attribute for comparison, making it invalid. The original event is present but incomplete, and there is an additional unrelated 'Work' event.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'system_actual' calendar is empty, providing no information to compare against the 'system' which contains a scheduled event. Hence no similarities can be drawn.",
+        "score": 0
+    },
+    {
+        "reasoning": "Similar to previous reasoning where the 'system_actual' calendar is empty, providing no information to compare against the 'system' which contains a scheduled event. Hence, no similarity analysis is possible.",
+        "score": 0
+    },
+    {
+        "reasoning": "Again, with an empty 'system_actual', no comparison is possible against the 'system' which contains a scheduled event. No similarity exists as there are no data to compare.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'system_actual' calendar contains a relevant event that matches closely with the system's 'Work' event but with a different set of start and end recurrence dates. This affects similarity significantly.",
+        "score": 4
+    },
+    {
+        "reasoning": "The 'system_actual' calendar contains one correct event duplicated with a major inconsistency (the 'allDay' flag set to true for one iteration) and incorrect timings for the 'endtime' on the second identical event. Thus, the events do not completely match the original 'system'.",
+        "score": 4
+    }
+]

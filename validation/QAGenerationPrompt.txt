@@ -1,0 +1,23 @@
+The following is the system prompt for an LLM that is designated to be a calendar assistant.
+
+--------------------------------------------------------
+
+Add prompt.txt
+
+-------------------------------------------------------
+
+
+Come up with some ideal question and answer scenarios between this LLM and a user as a list of lists of valid JSONs where each list of JSONs contains an ideal user-system interaction.
+thoroughly explain each interaction before writing it.
+Format should look like this:
+
+[
+    [
+        {"user": "*user question*"}
+        {"system": "*system response*"}
+    ],
+    [
+        {"user": "*user question*"}
+        {"system": "*system response*"}
+    ]
+]

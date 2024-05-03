@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "Both event entries match exactly in daysOfWeek, start and end times, recurrence dates, and color. However, there is a slight difference in the title for the 'Weekly Team Meeting' event ('Team Meeting' in system_actual), resulting in a slightly lower score.",
+        "score": 9
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The 'system_actual' calendar is empty and does not contain any of the required event attributes.",
+        "score": 0
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The events match except for the 'startRecur' dates which are different ('2024-04-26' in system, '2024-04-22' in system_actual). This results in a decrease in the score.",
+        "score": 9
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "'system_actual' calendar is empty and does not contain any event which is required as per 'system'. This results in the lowest score.",
+        "score": 0
+    },
+    {
+        "reasoning": "The event information matches except for the start and end recurrence dates which are different ('2024-04-19' to '2044-04-19' in system_actual instead of '2024-04-22' to '2044-04-22' in system), resulting in a lower score.",
+        "score": 9
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars have identical events except for the 'endRecur' dates and title of the 'Weekly Team Meeting' which are different. This suggests a high degree of similarity but not perfect accuracy in replication or possible updates in details.",
+        "score": 8
+    },
+    {
+        "reasoning": "Both calendars are exactly the same for the 'Weekly Team Meeting', ensuring perfect matching in all aspects.",
+        "score": 10
+    },
+    {
+        "reasoning": "The additional 'Language Class' event in the 'system_actual' calendar configures an existing event 'Morning Meditation' correctly but introduces a new event, resulting in considerable deviation from the original calendar.",
+        "score": 6
+    },
+    {
+        "reasoning": "While 'daysOfWeek', 'startTime', 'endTime', and 'title' match exactly, the 'startRecur' and 'endRecur' dates are different which are critical parameters for scheduling, affecting the accuracy significantly.",
+        "score": 7
+    },
+    {
+        "reasoning": "The 'endTime' for the 'Yoga' session is extended from '08:30' to '09:00', and the 'startRecur' and 'endRecur' dates do not match, considerably affecting the event's schedule.",
+        "score": 6
+    },
+    {
+        "reasoning": "The 'Family Lunch' event matches exactly in all details across both calendars.",
+        "score": 10
+    },
+    {
+        "reasoning": "The 'Marketing Meetings' details including 'daysOfWeek', 'startTime', 'endTime', 'startRecur', 'endRecur', and 'title' match perfectly.",
+        "score": 10
+    },
+    {
+        "reasoning": "While some parameters are correct, the difference in 'startRecur' dates and the changed title from 'Work' to 'New Job' could represent significant differences in context or period, though structurally similar.",
+        "score": 7
+    },
+    {
+        "reasoning": "The 'Family Lunch' event matches in all measurable aspects, ensuring complete compatibility.",
+        "score": 10
+    }
+]

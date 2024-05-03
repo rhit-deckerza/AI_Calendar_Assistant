@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The 'system_actual' calendar lacks the 'startRecur' and 'endRecur' attributes which are essential for defining the event's recurrence period. All other attributes match perfectly. Because the recurrence dates are critical for the functions of the calendar event but are not completely nullifying the function of the event, a score of 3 is given.",
+        "score": 3
+    },
+    {
+        "reasoning": "The 'system_actual' calendar is completely empty, providing no data at all in comparison to the 'system' which includes two events. This makes 'system_actual' drastically inaccurate and incomplete. It rates at the lowest because it fails at providing any relevant event data.",
+        "score": 0
+    },
+    {
+        "reasoning": "Similarly to the previous scenario, 'system_actual' calendar is again completely empty, missing the crucial detailed event present in 'system'. It also provides no relevant data.",
+        "score": 0
+    },
+    {
+        "reasoning": "'system_actual' provides a completely different event from the 'system'. Different day, time, title, and color. None of the key attributes correspond directly with 'system', indicating a very low match. A score of 1 is given since some valid attributes are used, but they reflect an entirely different event.",
+        "score": 1
+    },
+    {
+        "reasoning": "Like the second and third cases, 'system_actual' calendar is completely empty. There is no data to compare to what's defined in 'system'. The lack of any data warrants the lowest rating.",
+        "score": 0
+    },
+    {
+        "reasoning": "Similar to other cases where 'system_actual' lacks any entries. There's no correspondence or any content to consider when comparing to 'system'. It scores the lowest due to complete absence of data.",
+        "score": 0
+    },
+    {
+        "reasoning": "Again, 'system_actual' is found to be empty, providing no data for comparison with 'system' which has an event specified. This consistent lack of content in actual leads to a score of 0.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'system_actual' calendar remains empty, providing no information against the defined event in 'system'. The absence of any event information gives the lowest possible score.",
+        "score": 0
+    },
+    {
+        "reasoning": "In this situation, 'system_actual' also consists of no entries, making it impossible to compare with the detailed event in 'system'. This empty data gives a score of 0.",
+        "score": 0
+    },
+    {
+        "reasoning": "'system_actual' provides an event that matches 'system' in 'allDay', 'daysOfWeek', 'startRecur', 'endRecur', 'title', and 'color' but the 'startTime' differs. Due to the critical attribute mismatch but with several other matches, the score is adjusted to 7.",
+        "score": 7
+    }
+]

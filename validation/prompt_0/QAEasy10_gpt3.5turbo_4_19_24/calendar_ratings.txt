@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "Both events 'Morning Meditation' are identical. The 'Weekly Team Meeting' event in system_actual has a different startRecur, endRecur, and the title is slightly modified ('Team Meeting' instead of 'Weekly Team Meeting'), leading to a score reduction.",
+        "score": 7
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars match exactly for the 'Morning Meditation' event, but system_actual includes an extra event that is not present in system ('Language Class'), thus reducing the score for deviation from system.",
+        "score": 6
+    },
+    {
+        "reasoning": "The 'Marketing Meetings' event in system_actual has incorrect endTime (10:00, which is the same as startTime) and an incorrect endRecur date (2044-04-04 instead of 2044-04-23). All other attributes match.",
+        "score": 4
+    },
+    {
+        "reasoning": "The 'Yoga' event has different startRecur and endRecur dates (in system_actual it starts on 2024-04-22 while in system it starts on 2024-04-26). All other event details match.",
+        "score": 8
+    },
+    {
+        "reasoning": "The 'Family Lunch' event has different startRecur and endRecur dates (in system_actual it starts on 2024-04-14 while in system it starts on 2024-04-21). All other event details match.",
+        "score": 8
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The 'Work' event dates for startRecur and endRecur are different (in system_actual they are both from 2024-04-19 to 2044-04-19, whereas in system they are from 2024-04-22 to 2044-04-22). All other details accurately match.",
+        "score": 8
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    }
+]

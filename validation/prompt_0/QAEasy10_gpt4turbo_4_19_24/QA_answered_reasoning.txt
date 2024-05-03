@@ -1,0 +1,82 @@
+[
+    [
+        {
+            "user": "<CAL>[]</CAL>I want to start doing morning meditations. Can you add it every day at 6am for 30 minutes?"
+        },
+        {
+            "response": "Certainly! You've requested to schedule a morning meditation session every day, starting at 6 am and lasting for 30 minutes. This session will be added to begin on today's date, the 19th of April 2024, and will continue indefinitely.\n\nHere is your calendar updated with the new meditation event:\n\n\n\nThis morning meditation is scheduled daily to help you start your day calmly. Let me know if there is anything else you'd like to adjust!"
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [0,1,2,3,4,5,6], \"startTime\": \"06:00\", \"endTime\": \"06:30\", \"startRecur\": \"2024-04-19\", \"endRecur\": \"2044-04-19\", \"title\": \"Morning Meditation\", \"color\": \"blue\"}]</CAL>I need to schedule time for weekly team meetings on Tuesdays at 10 AM for 2 hours."
+        },
+        {
+            "response": "To address your request to add weekly team meetings on Tuesdays at 10 AM for 2 hours, I have reviewed the current calendar events. The existing event is a daily Morning Meditation from 6:00 AM to 6:30 AM, which will not conflict with the new team meetings.\n\nBased on the information, I will schedule the \"Team Meetings\" on Tuesdays starting from today (19th April 2024). The meetings will run from 10:00 AM to 12:00 PM and will be set to recur every Tuesday for the next 20 years ending on 2044-04-19. I've assigned the color \"blue\" to maintain consistency with existing events.\n\nHere is your updated calendar:\n\n\n\nThis setup should cover your weekly team meetings seamlessly without affecting your existing meditation schedule. If there are any other preferences or further changes needed, feel free to let me know!"
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [2], \"startTime\": \"10:00\", \"endTime\": \"12:00\", \"startRecur\": \"2024-04-19\", \"endRecur\": \"2044-04-19\", \"title\": \"Weekly Team Meeting\", \"color\": \"blue\"}]</CAL>I just found out I have a recurring appointment every Tuesday morning. Can you move the team meetings to Thursday at the same time?"
+        },
+        {
+            "response": "I understand that you need to move the existing \"Weekly Team Meeting\" from Tuesday mornings to Thursday mornings at the same time. Currently, the meeting is scheduled for Tuesdays from 10:00 AM to 12:00 PM. Therefore, I will update it to occur on Thursdays during the same time block to avoid any conflict with your new recurring appointment on Tuesday mornings.\n\nHere is the modified calendar:\n\n\n\nThis change accommodates your new Tuesday appointment without overlapping or affecting the meeting's duration or other details."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [0,1,2,3,4,5,6], \"startTime\": \"06:00\", \"endTime\": \"06:30\", \"startRecur\": \"2024-04-19\", \"endRecur\": \"2044-04-19\", \"title\": \"Morning Meditation\", \"color\": \"blue\"}]</CAL>I'd like to start going to a language class which happens every Wednesday evening. What times do you recommend?"
+        },
+        {
+            "response": "Given that you already have a \"Morning Meditation\" scheduled every day from 6:00 AM to 6:30 AM, your mornings are committed, but the rest of your day is free according to the existing calendar events listed.\n\nFor the language class you want to attend every Wednesday evening, popular times for evening classes typically range from 6:00 PM to 9:00 PM. Considering a convenient time for dinner and sufficient time after the usual work hours, I recommend scheduling the language class from 6:30 PM to 8:30 PM. This allows you a little time after conventional work hours (assuming they end by 5:00 PM or 6:00 PM) to transition to the class, and still provides a reasonable evening period after the class for personal time or dinner.\n\nWould you like me to schedule the language class for every Wednesday from 6:30 PM to 8:30 PM starting from the upcoming Wednesday?"
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[]</CAL> Can you schedule my 'Marketing Meetings' every Tuesday and Thursday at 10:00 AM starting next week?"
+        },
+        {
+            "response": "Certainly! Since you specified that the 'Marketing Meetings' should be scheduled every Tuesday and Thursday at 10:00 AM starting from next week, I will set this recurring event accordingly. The start date for 'Marketing Meetings' will be Tuesday, April 23, 2024. Without further information, I will assume each session lasts for one hour, so it will end at 11:00 AM. Additionally, given the absence of an end date for this recurring event, I will set it to continue for the next 20 years.\n\nHere is your updated calendar:"
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1], \"startTime\": \"08:00\", \"endTime\": \"09:00\", \"startRecur\": \"2024-04-22\", \"endRecur\": \"2044-04-22\", \"title\": \"Yoga\", \"color\": \"blue\"}]</CAL> I need to move my Yoga sessions to Fridays, starting at 7:30 AM."
+        },
+        {
+            "response": "You've requested that the Yoga sessions, which are currently set to Mondays from 8:00 AM to 9:00 AM, be moved to Fridays starting at 7:30 AM. Since the duration changed previously (1 hour), I will maintain the same duration and schedule the yoga session on Fridays from 7:30 AM to 8:30 AM. This adjustment will avoid any conflict with other scheduled times as no other events are mentioned for Fridays.\n\nHere is your updated calendar reflecting the change:"
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[]</CAL> Add a family lunch every Sunday at noon, starting this week."
+        },
+        {
+            "response": "I understand you want to add a recurring event for a family lunch every Sunday at noon, starting this week.\n\nGiven that today's date is April 19, 2024, this week's Sunday would be April 21, 2024. Assuming that the family lunch lasts for about two hours, I will set it to end at 14:00 (2 PM). You didn\u2019t specify an end date for the recurrence, so I will set this to recur for the next 20 years, which is a common practice for infinitely recurring events in the absence of a specified end date.\n\nHere's how your calendar looks now:"
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [2, 4], \"startTime\": \"10:00\", \"endTime\": \"11:00\", \"startRecur\": \"2024-04-23\", \"endRecur\": \"2044-04-23\", \"title\": \"Marketing Meetings\", \"color\": \"blue\"}]</CAL> I need to cancel all Marketing Meetings starting from next month."
+        },
+        {
+            "response": "To cancel the Marketing Meetings starting from next month, we need to modify the existing recurring event. Currently, the Marketing Meetings are scheduled on Tuesdays and Thursdays from 10:00 AM to 11:00 AM until April 23, 2044. We will set the end recurrence date to the last day of this month which is April 30, 2024, effectively stopping them from occurring starting from May 1, 2024.\n\nHere's how the updated calendar will look:\n\n\n\nThis change will ensure no more Marketing Meetings happen from next month onwards while preserving the history of meetings until the end of April 2024."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[]</CAL> I just got a new job, can you block off 9 to 5, Monday to Friday?"
+        },
+        {
+            "response": "Sure! Since you mentioned a new job from 9 AM to 5 PM on weekdays, I'll schedule it accordingly as a recurring event every Monday to Friday. This setup is typical for standard working hours, and I'll set the recurrence to span for the next 20 years, ensuring you don't have to update this regularly. I'll assign it the color blue, as no specific color preference was mentioned."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [0], \"startTime\": \"12:00\", \"endTime\": \"13:00\", \"startRecur\": \"2024-04-21\", \"endRecur\": \"2044-04-21\", \"title\": \"Family Lunch\", \"color\": \"blue\"}]</CAL> Can you change the family lunch to last for two hours instead of one?"
+        },
+        {
+            "response": "To accommodate your request to extend the duration of the \"Family Lunch\" event to two hours, I will adjust the end time from 1:00 PM to 2:00 PM. This change ensures that the lunch not only starts at the same time (12:00 PM) but also lasts longer on Sundays, as originally scheduled.\n\nHere is your updated calendar:"
+        }
+    ]
+]

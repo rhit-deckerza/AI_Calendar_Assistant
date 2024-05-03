@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The provided 'system_actual' event contains an incorrect date format '(2024-04-20)' for 'startRecur', indicates missing 'endRecur', and violates the attribute formatting rule, which is critical.",
+        "score": 0
+    },
+    {
+        "reasoning": "Although the 'Morning Meditation' event matches perfectly, the 'Weekly Team Meeting' event has different 'startRecur' and 'endRecur' dates (2024-04-23 to 2026-04-23) in 'system_actual' compared to 'system' (2024-04-19 to 2044-04-19). Hence, not all attributes are identical, but overall structure and most details are aligned.",
+        "score": 7
+    },
+    {
+        "reasoning": "The number of events matches, and the second event is identical, but the details for the first event differ drastically in days of the week, start and end date, and title in 'system_actual'. These changes reduce the similarity significantly",
+        "score": 3
+    },
+    {
+        "reasoning": "The 'system_actual' list is empty, which contains no corresponding event information as compared to the 'system'. This leads to a scenario where none of the planned events are reflected in 'system_actual'.",
+        "score": 0
+    },
+    {
+        "reasoning": "Similar to the earlier scenario, the 'system_actual' list is again empty with no event information compared to the defined event in 'system'. This results in a complete mismatch.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'system_actual' includes multiple distinct events compared to the single defined event in 'system'. The event dates, days of the week, and times vary significantly, only partially reflecting the intended schedule.",
+        "score": 2
+    },
+    {
+        "reasoning": "Critical errors in 'system_actual': uses a non-existent date placeholder '(CURRENT_DATE)' and lacks several attributes in the second event (missing 'daysOfWeek', 'startTime', 'endTime', 'allDay'). This makes the actual system unusable as per defined conventions.",
+        "score": 0
+    },
+    {
+        "reasoning": "'system_actual' list is empty, meaning no corresponding event data is provided as expected from the 'system'. No original events are retained or reflected.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'system_actual' event incorrectly includes Saturday (additional day) and has missing 'startRecur' and 'endRecur' values, besides changing the title. This results in misalignments severe enough to disrupt expected scheduling and intent.",
+        "score": 2
+    },
+    {
+        "reasoning": "The 'system_actual' extends the 'endTime' by one hour compared to 'system', but all other details including days of performance, start and end dates, and title match the expected setup. This results in high similarity with a slight deviation in duration.",
+        "score": 9
+    }
+]

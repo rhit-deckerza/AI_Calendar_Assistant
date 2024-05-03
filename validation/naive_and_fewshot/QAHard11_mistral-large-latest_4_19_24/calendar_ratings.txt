@@ -1,0 +1,46 @@
+[
+    {
+        "reasoning": "The 'system_actual' calendar deviates significantly from the 'system' events. An attempt was made to include events with correct titles but there are several mismatches in 'startRecur', 'endRecur', and the title of one of the events is incorrect. These mismatches affect the integrity of the calendar by not reflecting the intended scheduling accurately.",
+        "score": 3
+    },
+    {
+        "reasoning": "While many of the attributes match, there are notable omissions and alterations in the 'system_actual' calendar. The 'Weekly Team Lunch' event is missing entirely and another event ('Team Lunch') has different timing and title but tries to fill the gap. There's also a potential misunderstanding or misplacement of events, leading to reduced usability. Thus, the alignment is partially there, but crucial elements are missing or changed.",
+        "score": 5
+    },
+    {
+        "reasoning": "The 'system_actual' calendar bears little resemblance to the intended 'system' events. Key timing details and event specifications such as titles and day schedules show significant deviations and incorrect arrangements. The mismatch is comprehensive across nearly all events, suggesting a major misinterpretation or error in alignment.",
+        "score": 2
+    },
+    {
+        "reasoning": "The 'system_actual' calendar gets some of the events matched accurately but introduces an error in the 'daysOfWeek' for the 'Client Strategy Meeting', affecting its practical usability. Additionally, one title is mismatched, reducing the overall fidelity of the intended scheduled recurrence and specific day occurrences.",
+        "score": 6
+    },
+    {
+        "reasoning": "The 'system_actual' demonstrates a substantial deviation from the original 'system' with an error in timing and days for the 'Junior Staff Training' event. This drastically affects practical scheduling and reduces the usefulness and reliability of the calendar data.",
+        "score": 6
+    },
+    {
+        "reasoning": "The calendars contain correct event names and the same days of the week for recurring events. However, the time of the 'Brainstorming Session' is off by an hour, and the 'startRecur' and 'endRecur' dates have minor inaccuracies. These slight mismatches affect some of the specific event scheduling utility but maintain general alignment.",
+        "score": 7
+    },
+    {
+        "reasoning": "All events in the 'system_actual' calendar match the 'system' entries in terms of titles, days, and times accurately. However, significant attributes such as 'startRecur' for 'Morning Briefing' are omitted which could ultimately lead to different interpretations on recurrence, thus slightly reducing the match quality.",
+        "score": 8
+    },
+    {
+        "reasoning": "The 'system_actual' calendar shows a change in event timing (from 15:00-16:00 to 12:00-13:00) for the 'Project Update' event. Although days and titles are preserved, this difference in timing could affect the practical scheduling and user's daily planning, slightly diminishing its reliability.",
+        "score": 7
+    },
+    {
+        "reasoning": "The 'system_actual' calendar retains most of the core attributes—days, 'startRecur', and 'endRecur'—correctly, but it shifts the 'Marketing Review' event time to noon, and changes its color. Additionally, all other events are fairly aligned, meaning the planned structure and function are generally respected. These shifts affect precise event alignment but maintain a broad consistency in scheduling integrity.",
+        "score": 6
+    },
+    {
+        "reasoning": "The 'system_actual' calendar correctly replicates the overall structure and schedules of 'system' exactly, preserving event integrity, details, and functionality without deviations in 'titles' or 'daysOfWeek'. Any slight deviation occurs in a minor aspect such as the time by an hour for the 'All-Hands Meeting', while maintaining all other attributes accurately.",
+        "score": 9
+    },
+    {
+        "reasoning": "Both calendars fully match in terms of event titles and daysOfWeek. The events in 'system_actual' are scheduled to mimic the ones in 'system' in every detail like color and times, except for the 'Junior Staff Training' which has unexpected changes to 'daysOfWeek', 'startTime', and 'endTime'. These changes could impact the specificity and utility for users.",
+        "score": 8
+    }
+]

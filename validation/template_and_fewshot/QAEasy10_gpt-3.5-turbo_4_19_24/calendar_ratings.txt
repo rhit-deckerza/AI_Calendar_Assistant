@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "Both system events are present, although their order is reversed, which does not affect the equality. There is a minor discrepancy in the title of 'Weekly Team Meeting' vs 'Weekly Team Meetings', reducing the score.",
+        "score": 9
+    },
+    {
+        "reasoning": "The events in both calendars are identical with no discrepancies.",
+        "score": 10
+    },
+    {
+        "reasoning": "The primary event from the system is matched perfectly in system_actual, but an additional event ('Language Class') appears in the system_actual which makes it not an exact match.",
+        "score": 8
+    },
+    {
+        "reasoning": "The system_actual's start and end recur dates are shifted forward to '2024-04-29' compared to '2024-04-23' in the system which reduces the match quality.",
+        "score": 7
+    },
+    {
+        "reasoning": "The system_actual's start and end recur dates are shifted forward to '2024-04-22' compared to '2024-04-26' in the system which reduces the match quality.",
+        "score": 7
+    },
+    {
+        "reasoning": "The events in both calendars are identical with no discrepancies.",
+        "score": 10
+    },
+    {
+        "reasoning": "The system_actual calendar is empty compared to the populated system calendar, thus they do not match at all.",
+        "score": 1
+    },
+    {
+        "reasoning": "The system_actual event starts with a different 'startRecur' date compared to the system event. While other attributes match, the differing start date affects schedule alignment.",
+        "score": 8
+    },
+    {
+        "reasoning": "The events in both calendars are identical with no discrepancies.",
+        "score": 10
+    }
+]

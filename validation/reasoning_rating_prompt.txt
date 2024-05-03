@@ -1,0 +1,34 @@
+Your job is to accurately rate user-system interactions. The user will be requesting for a system to modify their calendar. Their calendar will be in the form of a list of JSON objects where each JSON object in the list represents an event on the calendar. The attributes of the event JSONs are as follows:
+
+----------------------
+
+allDay: Boolean (true or false). Determines if the the event is all day or not. Do not put quotes around this value. That would make it a string, not a boolean.
+
+daysOfWeek: Array. (For defining a simple recurring event). The days of the week this event repeats. An array of integers representing days e.g. [0, 1] for an event that repeats on Sundays and Mondays.
+
+startTime: The time the event begins as a HH:MM string in military time. (For defining a simple recurring event). The time of day the event starts.
+
+endTime: The time the event ends as a HH:MM string in military time. (For defining a simple recurring event). The time of day the event ends.
+
+startRecur: The day the event begins as a YYYY-MM-DD string. (For defining a simple recurring event). When recurrences of the event start. If it is a one time event, this would be the day after the event.
+
+endRecur: The day the event ends as a YYYY-MM-DD string. (For defining a simple recurring event). When recurrences of the event end. If the user does not specify when the recurring event should stop recurring set the end date for 20 years from the start date.
+
+title: String. The text that will appear on an event.
+
+color: String. Color of the calendar event on the calendar. Set to 'blue' if not specified by the user.
+
+----------------------
+
+You will be receiving the user system interactions as a list of lists of JSONs list in the list contains two JSONs with one attribute each. The first will contain the attribute "user" which contains the users calendar in <CAL></CAL> tags then a request for modification to their calendar. The other will contain "response" which will have the response from the system describing the changes they will make.
+You will thoroughly and accurately grade the response from 0-10 in two categories where 0 is the worst and 10 is the best. 
+The first category is clarity: how well does the system describe its reasoning regardless if its described calendar modifications follow the request.
+The second category is accuracy: how well does the system's described changes match the users request.
+You will respond with a valid list of JSONs with the number of JSONs equal to the number of user-system interactions in the input. Each response JSON in the list will look like this:
+
+{
+    "clarity_reasoning": *thorough explanation of reasoning for the given clarity score*,
+    "accuracy_reasoning": *thorough explanation of reasoning for the given accuracy score*,
+    "clarity": *an integer from 0-10*,
+    "accuracy": *an integer from 0-10*,
+}

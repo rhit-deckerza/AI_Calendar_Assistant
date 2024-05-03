@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The second input list for system_actual is empty, indicating there is no corresponding data to validate against the system, hence defaulting to the lowest valid score.",
+        "score": 1
+    },
+    {
+        "reasoning": "Although the system_actual has most details correct, the 'Weekly Team Lunch' is missing, and 'Team Lunch' has incorrect color and time adjustments, showing significant deviations in overall calendar structure. Also, missing 'End of Day Review' event.",
+        "score": 4
+    },
+    {
+        "reasoning": "The system_actual records several extra events not found in the system and entirely misses 'Weekly Team Building'. The added events differ significantly in time, title, and recurrence parameters from the original event.",
+        "score": 2
+    },
+    {
+        "reasoning": "All events match in terms of time slots, recurrence, and color, except for 'Client Strategy Meeting' which has mismatched day of the week, time, start and end recurrence. The title also slightly mismatches.",
+        "score": 6
+    },
+    {
+        "reasoning": "All the events match exactly in their attributes (day, time, recurring dates, title, and color), except 'Junior Staff Training', which has a slightly different title and different days of the week.",
+        "score": 8
+    },
+    {
+        "reasoning": "Each event matches perfectly in terms of the day, time, title, and color, but missing 'startRecur' and 'endRecur' fields for many events in 'system_actual' unlike the 'system', hence not fully compliant.",
+        "score": 8
+    },
+    {
+        "reasoning": "All events match perfectly in terms of the day, time, and color. However, there is a slight mismatch in one event where the 'startTime' and 'endTime' differ by two hours, leading to a minor deduct.",
+        "score": 9
+    },
+    {
+        "reasoning": "Events mostly align, but 'Marketing Review' has incorrect time and color in system_actual; and 'startRecur' and 'endRecur' also mismatch. These discrepancies slightly disrupt the alignment.",
+        "score": 7
+    },
+    {
+        "reasoning": "While all events are present in system_actual and mostly match, the 'All-Hands Meeting' is marked as all-day incorrectly, colored differently, and the time is set to encompass the whole day, which is a significant deviation.",
+        "score": 4
+    },
+    {
+        "reasoning": "Most events match exactly. However, the extra 'Training Session for Junior Staff' in system_actual complicates the comparison by changing the day, time, recurrence, and title details significantly.",
+        "score": 8
+    }
+]

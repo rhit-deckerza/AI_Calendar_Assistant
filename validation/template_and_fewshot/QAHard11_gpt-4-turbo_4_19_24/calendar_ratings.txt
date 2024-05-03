@@ -1,0 +1,46 @@
+[
+    {
+        "reasoning": "In the first pair, 'system_actual' consolidates two separate Engineering Standup events into one, starting from 2024-05-01, which compromises the specificity of the original schedule. Additionally, the Sales Standup event starts on a different date and an ending date typo causes it to repeat incorrectly compared to the original. The second Engineering Standup event is missing entirely.",
+        "score": 4
+    },
+    {
+        "reasoning": "The actual system is missing several events compared to the system data including: Weekly Team Lunch and Development Time. Moreover, the Team Lunch present in the actual data starts and ends on incorrect dates and its timing is shifted by an hour. Additionally, the color for Team Lunch does not match the original, impacting the overall score significantly.",
+        "score": 3
+    },
+    {
+        "reasoning": "The system_actual is empty. The entire structured calendar populated in the system configuration is missing from the system actual data. Thus, it produces a not applicable comparison.",
+        "score": 0
+    },
+    {
+        "reasoning": "The system_actual has significant discrepancies like the Client Strategy Meeting being on an entirely different day and with an incorrect startRecur and endRecur. Additionally, the color for several events like the Junior Staff Training and Marketing Review has changed which affects how these events are categorized and accessed in a real-world application.",
+        "score": 4
+    },
+    {
+        "reasoning": "The system_actual does not contain any events, and therefore, it completely lacks the data present in the system, rendering a direct comparison impossible.",
+        "score": 0
+    },
+    {
+        "reasoning": "While 'system_actual' retains the Strategy Meeting accurately, the Brainstorming Session start time has been shifted back an hour, starts two days earlier, and the color changed which can affect user recognition and planning. Thus, timing and attribute errors are penalized.",
+        "score": 7
+    },
+    {
+        "reasoning": "Dates for the recurring event are different which might affect the scheduling and future planning, making the calendars partially consistent but with potential for crucial mismatch errors over long term usage.",
+        "score": 7
+    },
+    {
+        "reasoning": "The ending times have shifted by an hour for the Project Update which would affect when participants are available or when resources are utilized, potentially causing scheduling conflicts.",
+        "score": 8
+    },
+    {
+        "reasoning": "The times for the Marketing Review event have shifted, and its ending date has been wrongly set leading to potential confusion. Furthermore, the color changes could also mislead typesetting or prioritizing events.",
+        "score": 5
+    },
+    {
+        "reasoning": "The system_actual data is empty. The expected events in system data are completely missing in the actual data returned, which makes usability and comparison non-applicable.",
+        "score": 0
+    },
+    {
+        "reasoning": "The critical fields such as timing and dates match for most events but there's an error in Junior Staff Training's timing and color. These elements are crucial for accurate scheduling and categorization of events causing a serious scheduling mismatch.",
+        "score": 7
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "reasoning": "The titles, recurring patterns, and most attributes of each event match between the actual and the system calender, but there are discrepancies in the color attribute (red vs green) and some dates and titles are swapped or incorrectly matched.",
+        "score": 4
+    },
+    {
+        "reasoning": "Most attributes and the structure of events between the system and the actual calender match correctly, but there are discrepancies in one event's time and color, and another event (Weekly Team Lunch) has a changed title and a missing day of the week.",
+        "score": 7
+    },
+    {
+        "reasoning": "This pair returns an empty list for system_actual, which should instead mirror the single grouped event provided in the system. This constitutes a complete absence of the required data.",
+        "score": 0
+    },
+    {
+        "reasoning": "The events mostly match in structure, time, and recurrence. However, slight modifications in the titles and substantial discrepancies in the days of one event significantly deviate from the system event specification.",
+        "score": 6
+    },
+    {
+        "reasoning": "Most events match well between the system and actual calendars, but there are discrepancies in timing, start and end recurrence dates for an event, as well as changes in the color which should match the system's data.",
+        "score": 6
+    },
+    {
+        "reasoning": "The structure of the events matches, and so do most attributes. There are some minor discrepancies in event timing and mismatch between start and end recurrence dates, which impacts the overall accuracy.",
+        "score": 7
+    },
+    {
+        "reasoning": "The only discrepancy is that the 'Brainstorming Session' has different timing and start/end dates in actual compared to system, which are crucial details. All other attributes match correctly.",
+        "score": 8
+    },
+    {
+        "reasoning": "Minor discrepancies exist only in the start and end recurrence dates for the 'Morning Briefing' event, while all other attributes including titles and color perfectly align between actual and system calendars.",
+        "score": 9
+    },
+    {
+        "reasoning": "The system_actual perfectly matches the system in all attributes for the single event provided. This is an ideal match.",
+        "score": 10
+    },
+    {
+        "reasoning": "All attributes including recurring days, timings, and event details perfectly match between the system and the actual calendar for all events.",
+        "score": 10
+    },
+    {
+        "reasoning": "Minor alterations are present, such as the incorrect event timing and title mismatches. Recurrence and structure are consistent with system data but require precise alignment in timing and color.",
+        "score": 6
+    },
+    {
+        "reasoning": "While many core attributes are in alignment, errors such as the color and timing details lead to a significant deviation from the expected matches in the system calendar.",
+        "score": 6
+    },
+    {
+        "reasoning": "The events are perfectly matched regarding days, timing, and recurrence, but there's a color discrepancy for a single event, the 'All-Hands Meeting', affecting the accuracy.",
+        "score": 8
+    },
+    {
+        "reasoning": "While several events match correctly in timing and structure, substantial points of deviation exist such as the changed color in 'Technical Review', timing and the significant mismatch in recurrence days for 'Junior Staff Training'.",
+        "score": 6
+    }
+]

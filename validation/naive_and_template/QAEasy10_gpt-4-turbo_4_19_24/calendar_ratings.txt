@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The 'system_actual' event ends one day earlier than the 'system' event. Although all other attributes match, the mismatch in 'endRecur' date results in a slight deviation.",
+        "score": 9
+    },
+    {
+        "reasoning": "All attributes of the 'Morning Meditation' event match perfectly in both calendars. However, the 'Weekly Team Meeting' event in 'system_actual' has different 'startRecur' and 'endRecur' values. This leads to a substantial deviation.",
+        "score": 8
+    },
+    {
+        "reasoning": "The calendars are completely identical, with all attributes of 'Weekly Team Meeting' event matching exactly in both 'system' and 'system_actual'.",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars are completely identical. All event attributes in 'system' and 'system_actual' match exactly for the 'Morning Meditation' event.",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars are completely identical. All attributes for the 'Marketing Meetings' event match perfectly across both systems.",
+        "score": 10
+    },
+    {
+        "reasoning": "All attributes of the 'Yoga' session match except the 'startRecur' and 'endRecur' dates, which are different. This is a significant error as it affects the duration over which the events recur.",
+        "score": 4
+    },
+    {
+        "reasoning": "The calendars are completely identical, with all attributes of the 'Family Lunch' event matching exactly in both 'system' and 'system_actual'.",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars are completely identical. All attributes for the 'Marketing Meetings' event match exactly in both systems, showing perfect alignment.",
+        "score": 10
+    },
+    {
+        "reasoning": "The 'system_actual' event for 'Work' ends three days earlier than it should according to the 'system'. Although all other attributes match, this inconsistency in the 'endRecur' date affects the overall scoring.",
+        "score": 9
+    },
+    {
+        "reasoning": "The calendars are completely identical, with all event properties of the 'Family Lunch' event being exactly the same in both systems.",
+        "score": 10
+    }
+]

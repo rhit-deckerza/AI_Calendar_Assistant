@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The 'system_actual' event matches perfectly with 'system' except for the end recurrence date which is one day off.",
+        "score": 9
+    },
+    {
+        "reasoning": "Both events in 'system_actual' are similar to those in 'system', but the start recurrence date for the second event is four days off.",
+        "score": 8
+    },
+    {
+        "reasoning": "The events in 'system_actual' perfectly match those in 'system'.",
+        "score": 10
+    },
+    {
+        "reasoning": "The 'system_actual' matches the first event of 'system' accurately but includes an additional event which is not in 'system'.",
+        "score": 7
+    },
+    {
+        "reasoning": "The start and end times are identical but the events have matching properties except the end time, where it is the same as the start time in 'system_actual' rather than being an hour later.",
+        "score": 6
+    },
+    {
+        "reasoning": "The event in 'system_actual' has multiple errors in the day, start time, end time, and recurrence dates completely mismatching those set in 'system'.",
+        "score": 2
+    },
+    {
+        "reasoning": "The 'system_actual' event reflects almost fully with 'system' except for the end recurrence date which is earlier by five days.",
+        "score": 9
+    },
+    {
+        "reasoning": "The 'system_actual' events perfectly match those in 'system' in all attributes specified.",
+        "score": 10
+    },
+    {
+        "reasoning": "The recurring days, working hours, and title match but the start and end recurrence dates are off by three days.",
+        "score": 8
+    },
+    {
+        "reasoning": "The events in 'system_actual' perfectly match those in 'system'.",
+        "score": 10
+    }
+]

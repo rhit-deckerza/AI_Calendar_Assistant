@@ -1,0 +1,46 @@
+[
+    {
+        "reasoning": "The system_actual calendar has merged two separate recurring events from system into one and has errors in recurrence dates, also includes an extra event with incorrect color. The modified attributes and extra event result in notable differences from the system.",
+        "score": 4
+    },
+    {
+        "reasoning": "Most events match perfectly with the exception of the 'Weekly Team Lunch', where the timing and title have minor discrepancies. This small difference lowers the score slightly.",
+        "score": 8
+    },
+    {
+        "reasoning": "The 'Weekly Team Building' event is missing entirely, and several other events are added with different attributes. The actual calendar shows significant deviations in terms of events and their attributes.",
+        "score": 2
+    },
+    {
+        "reasoning": "Most of the events match between the system and system_actual calendars, but the 'Client Strategy Meeting' has the wrong day and an event color mismatch, degrading the accuracy slightly.",
+        "score": 7
+    },
+    {
+        "reasoning": "The difference in start and end times for the 'Junior Staff Training' and a change of color dramatically change the intended schedule dynamics and recognition, causing a mid-level score despite other matches.",
+        "score": 6
+    },
+    {
+        "reasoning": "The title 'Brainstorming Session' event's time has shifted by an hour and the color has changed. Due to the discrepancies in the accuracy of represented data through time and color, the rating is affected.",
+        "score": 8
+    },
+    {
+        "reasoning": "All properties of the singular event on both calendars match perfectly, reflecting complete accuracy in replication of calendar details.",
+        "score": 10
+    },
+    {
+        "reasoning": "Both events' start and end timings have been shifted considerably affecting the intended schedule within the day, causing a significant score decrease despite other attributes matching.",
+        "score": 4
+    },
+    {
+        "reasoning": "Shape of the data is maintained; however, the timing and color of 'Marketing Review' have been altered significantly, affecting the overall consistency between the intended and actual scheduling and display.",
+        "score": 6
+    },
+    {
+        "reasoning": "The 'All-Hands Meeting' now being inaccurately marked as all-day and changed color causes significant deviation from the intended deployment. All other events maintain integrity.",
+        "score": 7
+    },
+    {
+        "reasoning": "Significant deviation from the timing ('Junior Staff Training'), affecting how time is managed internally for junior staff training sessions. Since some basics like duration and titles are consistent, a lower mid-range score is granted.",
+        "score": 5
+    }
+]

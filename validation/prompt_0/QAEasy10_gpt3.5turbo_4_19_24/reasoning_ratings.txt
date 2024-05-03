@@ -1,0 +1,62 @@
+[
+    {
+        "clarity_reasoning": "The system's response is direct and unambiguous. It clearly states the addition of a daily morning meditation session with specified start time and duration.",
+        "accuracy_reasoning": "The given calendar modification matches the user request exactly by adding a daily meditation at 6:00 AM for 30 minutes.",
+        "clarity": 10,
+        "accuracy": 10
+    },
+    {
+        "clarity_reasoning": "The response clearly details the scheduling of the team meetings on Tuesdays from 10:00 AM to 12:00 PM, specifies the day and the duration, and affirms the absence of overlap with another recurring event.",
+        "accuracy_reasoning": "The modifications described by the system match the user request perfectly. The session accurately scheduled as per the specified timing and day.",
+        "clarity": 10,
+        "accuracy": 10
+    },
+    {
+        "clarity_reasoning": "The system response is clear and direct. It explicitly states the new time for the Weekly Team Meeting in response to the new Tuesday appointment.",
+        "accuracy_reasoning": "The response accurately shifts the Weekly Team Meeting from Tuesday to Thursday, adhering to the user's request.",
+        "clarity": 10,
+        "accuracy": 10
+    },
+    {
+        "clarity_reasoning": "The response clearly identifies a suitable time slot for the new event, provides a suggested timeframe for the language class, and assures it doesn't conflict with another event.",
+        "accuracy_reasoning": "Although the system describes the scheduling well, it prematurely adds the event to the calendar without explicit confirmation from the user regarding the suggested time slot, slightly deviating from ideal protocol.",
+        "clarity": 9,
+        "accuracy": 8
+    },
+    {
+        "clarity_reasoning": "The response straightforwardly states the addition of the 'Marketing Meetings' with specific days and start times.",
+        "accuracy_reasoning": "The system accurately adds the Marketing Meetings as specified, although it begins the scheduling on the coming Tuesday instead of the very next Monday, which is 'next week' but technically accurate.",
+        "clarity": 10,
+        "accuracy": 9
+    },
+    {
+        "clarity_reasoning": "The system succinctly describes the adjustment of the Yoga sessions to a new day and time. It provides clear and straightforward information.",
+        "accuracy_reasoning": "The response matches the user request accurately by rescheduling the yoga sessions to Fridays at 7:30 AM.",
+        "clarity": 10,
+        "accuracy": 10
+    },
+    {
+        "clarity_reasoning": "The response is clear and provides explicit details on the scheduling and recurrence of the new family lunch event on Sundays.",
+        "accuracy_reasoning": "The system correctly adds the family lunch as a recurring event every Sunday starting from this week, matching the user's request.",
+        "clarity": 10,
+        "accuracy": 10
+    },
+    {
+        "clarity_reasoning": "The response explicitly describes the action taken to cancel the Marketing Meetings. It clearly explains the update strategy for the 'endRecur' attribute to curtail the meetings.",
+        "accuracy_reasoning": "The described change aligns perfectly with the user's request to stop the meetings starting from next month.",
+        "clarity": 10,
+        "accuracy": 10
+    },
+    {
+        "clarity_reasoning": "The response clearly describes the addition of new work hours from Monday to Friday, although it could further specify that these are blocking hours for the new job.",
+        "accuracy_reasoning": "While the system correctly blocks 9 AM to 5 PM, Monday to Friday, there is no mention of setting up the event as 'allDay: false', and other necessary details were omitted, such as 'startRecur' and potential 'endRecur'.",
+        "clarity": 8,
+        "accuracy": 5
+    },
+    {
+        "clarity_reasoning": "The response is explicit about the modification, specifying exactly how the adjustment to the 'endTime' will extend the duration of the Family Lunch.",
+        "accuracy_reasoning": "The system matches the user's request accurately by extending the duration of the Family Lunch to two hours, updating the 'endTime' correctly.",
+        "clarity": 10,
+        "accuracy": 10
+    }
+]

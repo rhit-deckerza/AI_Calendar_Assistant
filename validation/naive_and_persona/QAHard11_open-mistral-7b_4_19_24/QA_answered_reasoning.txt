@@ -1,0 +1,84 @@
+[
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1,3], \"startTime\": \"10:00\", \"endTime\": \"11:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2024-04-30\", \"title\": \"Engineering Standup\", \"color\": \"green\"}]</CAL>Can you modify my engineering standup meetings so they alternate between sales and engineering standups starting next month?"
+        },
+        {
+            "response": "This modification will result in engineering standups on Mondays and Wednesdays, while sales standups will take place on Tuesdays and Thursdays, starting from May 1st, 2024."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1,2,3,4,5], \"startTime\": \"09:00\", \"endTime\": \"10:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Morning Meeting\", \"color\": \"blue\"}, {\"allDay\": false, \"daysOfWeek\": [1,3,5], \"startTime\": \"10:30\", \"endTime\": \"11:30\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Project Sync\", \"color\": \"green\"}, {\"allDay\": false, \"daysOfWeek\": [2,4], \"startTime\": \"12:00\", \"endTime\": \"13:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Client Calls\", \"color\": \"red\"}, {\"allDay\": false, \"daysOfWeek\": [1,2,3,4,5], \"startTime\": \"14:00\", \"endTime\": \"15:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Development Time\", \"color\": \"purple\"}, {\"allDay\": false, \"daysOfWeek\": [1,2,3,4,5], \"startTime\": \"16:00\", \"endTime\": \"17:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"End of Day Review\", \"color\": \"orange\"}]</CAL>Can you find a time for a weekly team lunch on Wednesdays?"
+        },
+        {
+            "response": "Based on your request, I will create a new event for the weekly team lunch on Wednesdays. I will assume the lunch will last for one hour and set the start time to 12:00 PM and end time to 1:00 PM in military time. Here is the updated calendar:\n\n\n\nLet me know if you need any other changes to the calendar."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1], \"startTime\": \"08:00\", \"endTime\": \"09:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Yoga\", \"color\": \"blue\"}, {\"allDay\": false, \"daysOfWeek\": [1,3,5], \"startTime\": \"09:30\", \"endTime\": \"10:30\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Sales Meeting\", \"color\": \"green\"}, {\"allDay\": false, \"daysOfWeek\": [1,3], \"startTime\": \"11:00\", \"endTime\": \"12:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Tech Review\", \"color\": \"red\"}, {\"allDay\": false, \"daysOfWeek\": [1,2,3,4,5], \"startTime\": \"13:00\", \"endTime\": \"14:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Lunch Break\", \"color\": \"purple\"}, {\"allDay\": false, \"daysOfWeek\": [1,2,3,4,5], \"startTime\": \"15:00\", \"endTime\": \"16:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Strategy Session\", \"color\": \"orange\"}]</CAL>I need to fit in a weekly team building event. When could we do this?"
+        },
+        {
+            "response": "Based on your natural language request, I assume you'd like to add a weekly team building event to your calendar. Let's add an event that recurs every week on Thursdays from 15:00 to 17:00, starting on the 25th of April 2024 and continuing until 2044. Here's the updated calendar:\n\n```json\n\n```\n\nThis new event is titled \"Weekly Team Building\" and recurs every Thursday from 15:00 to 17:00, starting on the 25th of April 2024."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1,2,3,4,5], \"startTime\": \"08:00\", \"endTime\": \"09:00\", \"title\": \"Morning Briefing\", \"color\": \"blue\"}, {\"allDay\": false, \"daysOfWeek\": [1,3], \"startTime\": \"10:00\", \"endTime\": \"11:30\", \"title\": \"Department Meeting\", \"color\": \"green\"}, {\"allDay\": false, \"daysOfWeek\": [2,4], \"startTime\": \"15:00\", \"endTime\": \"16:00\", \"title\": \"Sales Update\", \"color\": \"red\"}, {\"allDay\": false, \"daysOfWeek\": [1], \"startTime\": \"12:00\", \"endTime\": \"13:30\", \"startRecur\": \"2024-05-06\", \"endRecur\": \"2044-05-06\", \"title\": \"All-Hands Meeting\", \"color\": \"purple\"}, {\"allDay\": false, \"daysOfWeek\": [5], \"startTime\": \"14:00\", \"endTime\": \"16:00\", \"title\": \"Training Session\", \"color\": \"orange\"}]</CAL>I need to fit a weekly client strategy meeting into my schedule. Preferably in the morning. Any suggestions?"
+        },
+        {
+            "response": "Based on your request, I suggest adding a new event titled \"Weekly Client Strategy Meeting\" to your calendar, preferably in the morning. Here is the updated version of your calendar with the new event added:\n\n\n\nThis new event is scheduled every week on Monday and Friday mornings from 9:00 AM to 11:00 AM. You can adjust the start and end times as needed."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1], \"startTime\": \"10:00\", \"endTime\": \"11:00\", \"title\": \"Management Meeting\", \"color\": \"blue\"}, {\"allDay\": false, \"daysOfWeek\": [4], \"startTime\": \"14:00\", \"endTime\": \"15:30\", \"title\": \"Technical Review\", \"color\": \"green\"}, {\"allDay\": false, \"daysOfWeek\": [2], \"startTime\": \"13:00\", \"endTime\": \"15:00\", \"startRecur\": \"2024-04-30\", \"endRecur\": \"2044-04-30\", \"title\": \"Executive Session\", \"color\": \"red\"}, {\"allDay\": false, \"daysOfWeek\": [5], \"startTime\": \"11:00\", \"endTime\": \"12:00\", \"startRecur\": \"2024-05-10\", \"endRecur\": \"2044-05-10\", \"title\": \"HR Update\", \"color\": \"orange\"}]</CAL>I need to add a new bi-weekly training session for junior staff, preferably in the late mornings. Can you help?"
+        },
+        {
+            "response": "I've added a new bi-weekly training session for junior staff on Mondays and Thursdays, from 11:00 AM to 12:30 PM. The session is color-coded in purple. The Management Meeting, Executive Session, Technical Review, and HR Update remain unchanged."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1], \"startTime\": \"09:00\", \"endTime\": \"10:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Strategy Meeting\", \"color\": \"blue\"}]</CAL>Can you add a weekly brainstorming session every Wednesday afternoon?"
+        },
+        {
+            "response": "This updated calendar now includes a weekly brainstorming session every Wednesday afternoon, from 2:00 PM to 4:00 PM (EST), with the title \"Weekly Brainstorming Session\" and the color set to red. The Strategy Meeting event remains unchanged."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1,2,3,4,5], \"startTime\": \"08:00\", \"endTime\": \"09:00\", \"title\": \"Morning Briefing\", \"color\": \"blue\"}]</CAL>I need to cancel the Friday morning briefings."
+        },
+        {
+            "response": "Based on your request, I have removed the event that recurs on Fridays from the calendar. Here's the updated version:"
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [2,4], \"startTime\": \"11:00\", \"endTime\": \"12:00\", \"startRecur\": \"2024-04-02\", \"endRecur\": \"2044-04-02\", \"title\": \"Project Update\", \"color\": \"green\"}]</CAL>Can we move the project updates to the afternoon on the same days?"
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1,2,3,4,5], \"startTime\": \"09:00\", \"endTime\": \"10:00\", \"title\": \"Daily Standup\", \"color\": \"blue\"}, {\"allDay\": false, \"daysOfWeek\": [1,3,5], \"startTime\": \"10:30\", \"endTime\": \"11:30\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Project Sync\", \"color\": \"green\"}]</CAL>Can you schedule a weekly marketing review on Monday afternoons?"
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1,3], \"startTime\": \"14:00\", \"endTime\": \"15:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Technical Discussion\", \"color\": \"green\"}, {\"allDay\": false, \"daysOfWeek\": [2,4,5], \"startTime\": \"13:00\", \"endTime\": \"14:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Staff Meeting\", \"color\": \"blue\"}]</CAL>I'd like to add a monthly all-hands meeting on the first Friday of every month."
+        },
+        {
+            "response": "I've added a new all-day event titled \"Monthly All-Hands Meeting\" that recurs every first Friday of each month, starting from May 2024."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1], \"startTime\": \"10:00\", \"endTime\": \"11:00\", \"title\": \"Management Meeting\", \"color\": \"blue\"}, {\"allDay\": false, \"daysOfWeek\": [4], \"startTime\": \"14:00\", \"endTime\": \"15:30\", \"title\": \"Technical Review\", \"color\": \"green\"}, {\"allDay\": false, \"daysOfWeek\": [2], \"startTime\": \"13:00\", \"endTime\": \"15:00\", \"startRecur\": \"2024-04-30\", \"endRecur\": \"2044-04-30\", \"title\": \"Executive Session\", \"color\": \"red\"}, {\"allDay\": false, \"daysOfWeek\": [5], \"startTime\": \"11:00\", \"endTime\": \"12:00\", \"startRecur\": \"2024-05-10\", \"endRecur\": \"2044-05-10\", \"title\": \"HR Update\", \"color\": \"orange\"}]</CAL>I need to add a new bi-weekly training session for junior staff, preferably in the late mornings. Can you help?"
+        },
+        {
+            "response": "This new event will be added as a recurring event that takes place every week on Mondays and Fridays, starting at 11:30 AM and ending at 12:30 PM. The title of the event is \"Bi-weekly Junior Staff Training\" and it will be colored in yellow on the calendar."
+        }
+    ]
+]

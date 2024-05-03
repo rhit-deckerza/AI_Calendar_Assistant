@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "Both events are identical except for a minor difference in the title (\"Morning Meditation\" vs. \"Morning Meditations\"). This slight change in title impacts the overall identity slightly, but crucial components such as timing and recurrence are unchanged.",
+        "score": 9
+    },
+    {
+        "reasoning": "Although both calendar instances contain the same events, the specifics of dates for the 'Weekly Team Meeting' start recurrence are mismatched (starts on 2024-04-19 in the system, but 2024-04-24 in the actual system). This discrepancy, along with the reversed order of events, contributes to some confusion and misalignment.",
+        "score": 7
+    },
+    {
+        "reasoning": "The calendars are completely identical for the 'Weekly Team Meeting' event, matching all attributes perfectly including occurrence, timing, and other configurations.",
+        "score": 10
+    },
+    {
+        "reasoning": "The system_actual calendar includes an additional unexpected event ('Language Class'), which was not mentioned in the system calendar. This extra event alters the calendar's intended schedule despite the matching 'Morning Meditation'.",
+        "score": 7
+    },
+    {
+        "reasoning": "The calendars are completely identical for the 'Marketing Meetings,' maintaining full alignment in all event details matching exactly.",
+        "score": 10
+    },
+    {
+        "reasoning": "While the title and recurrence attributes match exactly, the ending time for the event 'Yoga' is different ('08:30' in system vs. '09:00' in system_actual), and the events also start on different dates. These are crucial discrepancies impacting the scheduling integrity.",
+        "score": 6
+    },
+    {
+        "reasoning": "The calendar event 'Family Lunch' is entirely consistent between system and system_actual, with all properties such as time, frequency, and duration of the occurrence perfectly matching.",
+        "score": 10
+    },
+    {
+        "reasoning": "The system_actual calendar is empty while the system calendar has an event with multiple occurrences (recurring 'Marketing Meetings'). This represents a complete omission of scheduled meetings from the actual calendar.",
+        "score": 1
+    },
+    {
+        "reasoning": "While the recurrence parameters and the schedule timings match, the title is different ('Work' in system vs 'New Job' in system_actual), and the start recurrence date is mismatched, which significantly impacts the particularity of an employment-based weekly schedule.",
+        "score": 6
+    },
+    {
+        "reasoning": "The calendars perfectly match with accurate representation of the 'Family Lunch' recurring every Sunday with identical times, colors, titles, and dates. The scheduled details align completely across both systems.",
+        "score": 10
+    }
+]

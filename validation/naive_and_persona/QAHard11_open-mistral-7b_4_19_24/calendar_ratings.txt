@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "In the first pair, the system_actual is missing recurrence details, and the events have misaligned attributes with wrong days, titles, and colors. Misalignment in crucial attributes like daysOfWeek and missing recurrence details lead to a low score.",
+        "score": 2
+    },
+    {
+        "reasoning": "In the second pair, while several events match closely, others are misaligned in terms of title and color modifications, such as the 'Team Lunch' turning 'brown' instead of 'yellow', and its shift in timing is a significant deviation.",
+        "score": 7
+    },
+    {
+        "reasoning": "The third pair shows a reasonable correspondence in some events but has additional events not present in the system and deviations in timing sequences. Adjustment in recurring dates for some events and mismatched days also lead to deductions.",
+        "score": 4
+    },
+    {
+        "reasoning": "The fourth pair sees major misalignments in titles, colors, and daysOfWeek as some of the actual events group different system events or completely redefine their durations and participants. Absence of key recurrence and improper substitutions further justifies the deductions.",
+        "score": 3
+    },
+    {
+        "reasoning": "The fifth pair has an empty 'system_actual', indicating no events to compare against system events which is highly discrepant.",
+        "score": 0
+    },
+    {
+        "reasoning": "The sixth pair features one event with closely aligned attributes except the system_actual is missing startRecur and endRecur dates, so given the full match in all other aspects a minor deduction is warranted for missing recurrence information.",
+        "score": 9
+    },
+    {
+        "reasoning": "The seventh pair shows an identical event regarding daily repetition and timing, but one title is misaligned with incorrect recurrences. The actual includes a possibly different event pattern, dropping from the score.",
+        "score": 6
+    },
+    {
+        "reasoning": "The eighth pair's actual matches closely with the system but there is one less event in the actual. Important attributes like dates and daysOfWeek align perfectly where provided, but the missing event means it's not a full match.",
+        "score": 7
+    },
+    {
+        "reasoning": "The ninth pair shows discrepancies in features like allDay settings and inconsistencies in event dates and colors, suggesting a moderate resemblance with several errors in attribute mapping.",
+        "score": 5
+    },
+    {
+        "reasoning": "The tenth pair again faces the issue of an empty 'system_actual', leading to no data for comparison against a defined system.",
+        "score": 0
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "reasoning": "The 'system_actual' calendar is missing for comparison. As there are no events to compare to the 'system' calendar, we cannot provide an accurate similarity score.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'system_actual' calendar is missing for comparison. As there are no events to compare to the 'system' calendar, we cannot provide an accurate similarity score.",
+        "score": 0
+    },
+    {
+        "reasoning": "The events in 'system_actual' completely differ from the single 'Weekly Team Building' event in the 'system'. None of the events in 'system_actual' match the provided event in 'system', displaying differences in day, time, and title.",
+        "score": 1
+    },
+    {
+        "reasoning": "The events in 'system_actual' largely match those in 'system' except for the 'Client Strategy Meeting', which appears in 'system' but is absent in 'system_actual'. This oversight results in a minor deduction in the score.",
+        "score": 9
+    },
+    {
+        "reasoning": "The 'system_actual' calendar is missing for comparison. As there are no events to compare to the 'system' calendar, we cannot provide an accurate similarity score.",
+        "score": 0
+    },
+    {
+        "reasoning": "Most attributes of the events match between 'system' and 'system_actual', however, the second event has an extended duration and a different title, leading to a minor deduction in similarity.",
+        "score": 7
+    },
+    {
+        "reasoning": "The 'system' and 'system_actual' events are mostly consistent; however, the 'Weekly Brainstorming Session' in 'system_actual' has a different end time and color than 'system', warranting a minimal deduction.",
+        "score": 8
+    },
+    {
+        "reasoning": "The 'Project Update' event in both the 'system' and 'system_actual' matches in all attributes except for the start and end times, which are significantly different leading to points deductions.",
+        "score": 7
+    },
+    {
+        "reasoning": "The 'Daily Standup' and 'Project Sync' events match between 'system' and 'system_actual', but 'system_actual' replaces 'Marketing Review' with 'Weekly Marketing Review' and misaligns the time significantly, affecting the score negatively.",
+        "score": 6
+    },
+    {
+        "reasoning": "While the first two events and 'Staff Meeting' are matched perfectly, the final event in 'system_actual' incorrectly lists it as 'allDay' and has different days, significantly decreasing the accuracy compared to 'system'.",
+        "score": 6
+    },
+    {
+        "reasoning": "While many events match between 'system' and 'system_actual', the 'Junior Staff Training' event has an additional day and different event duration in 'system_actual', leading to deductions for incorrect scheduling information.",
+        "score": 8
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "reasoning": "The first event matches exactly between both calendars. The second event in 'system_actual' incorrectly merges two distinct events from 'system' (Engineering Standup and Sales Standup have been merged and use incorrect `daysOfWeek`). The color of 'Sales Standup' was changed inaccurately to 'blue'. These mismatches and errors led to a lower score.",
+        "score": 3
+    },
+    {
+        "reasoning": "'system_actual' JSON is empty, providing no information and thus no match to 'system'. Therefore, a score of 0 is appropriate as per the criteria.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'system_actual' contains multiple extra events that do not match with the single event in 'system'. Additionally, the times and dates for the 'Team Building' event have been altered, causing significant deviations from the original. Inaccuracies and the addition of excessive unrelated data lead to a low score.",
+        "score": 2
+    },
+    {
+        "reasoning": "Most attributes match except for the missing 'startRecur' and 'endRecur' for many events, and incorrect timings for the 'Client Strategy Meeting'. This leads to significant differences.",
+        "score": 4
+    },
+    {
+        "reasoning": "Events and attributes match perfectly except for the 'Junior Staff Training' event where there's a small divergence in 'startRecur' and 'endRecur'. Overall, very high similarity but not identical due to this deviation.",
+        "score": 8
+    },
+    {
+        "reasoning": "While the first event matches perfectly, the second 'Brainstorming Session' has altered timings and dates ('startRecur' and 'endRecur') resulting in date discrepancies, thus not a perfect match.",
+        "score": 7
+    },
+    {
+        "reasoning": "The last event 'Morning Briefing' is missing the recursion dates causing an incomplete match. Other information seems correct. Slight deviation due to missing dates.",
+        "score": 7
+    },
+    {
+        "reasoning": "End time of 'Project Update' is altered incorrectly from system to actual, and the lack of 'startRecur' and 'endRecur' in the 'system_actual' contributes to a loss in points for full data integrity.",
+        "score": 6
+    },
+    {
+        "reasoning": "The third event ('Marketing Review' turned 'Weekly Marketing Review' and time altered) deviates significantly in significance, introduction of 'Weekly', and timing. This misalignment significantly detracts from the similarity.",
+        "score": 4
+    },
+    {
+        "reasoning": "All events match perfectly except for the 'All-Hands Meeting' where there are slight deviations in the title, color, and start/end recurrences making the occurrence and the title partially inaccurate, affecting the score negatively.",
+        "score": 6
+    },
+    {
+        "reasoning": "All events match perfectly in terms of days, times, and titles. Nevertheless, 'Junior Staff Training' event time was changed which slightly affects the overall accuracy.",
+        "score": 8
+    }
+]

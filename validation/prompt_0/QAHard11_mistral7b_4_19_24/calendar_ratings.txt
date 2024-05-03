@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The first case does not compare system and system_actual as system_actual contains an incorrectly referenced events variable, making it non-compliant. Thus, it is treated as invalid and a score of 0 is assigned.",
+        "score": 0
+    },
+    {
+        "reasoning": "The second test case compares many calendar events. It shows a slight deviation in the \"Weekly Team Lunch\" and \"Client Calls\" events in system_actual that differ either in title or color from the system definition, along with one additional event differing entirely (Team Lunch with color brown instead of yellow and title change). Despite most events matching, these discrepancies lower the similarity score.",
+        "score": 7
+    },
+    {
+        "reasoning": "The third scenario shows a drastically different system_actual with incorrect times, totally different event titles like 'Yoga' and 'Work' compared to 'Weekly Team Building', and additional events not listed in the system. The events' durations and details do not align except 'Work' shares only some schedule similarities.",
+        "score": 2
+    },
+    {
+        "reasoning": "In the fourth case, system_actual is formatted completely differently with no 'startRecur' or 'endRecur' details included and an additional unlisted event ('Weekly Client Strategy Meeting'), conflicting with the structure and details in the system. This omits critical scheduling information leading to a very low similarity.",
+        "score": 3
+    },
+    {
+        "reasoning": "In the fifth scenario, system_actual is empty with no events, meaning no similarity whatsoever to system which contains several detailed events, thus deserving the lowest possible score.",
+        "score": 0
+    },
+    {
+        "reasoning": "For the sixth scenario, system_actual introduces additional events and timing discrepancies (e.g., 'Brainstorming Session' with incorrect day and time), evidencing only partial adherence to the system. The added 'Work' event repeats multiple times and deviates from the specified system events.",
+        "score": 3
+    },
+    {
+        "reasoning": "In the seventh instance, the actual system inserts entirely different additional events ('Work') and mismatches in event specification details while retaining some accurate alignments in other events. Such divergence from the system specifications marks down the score.",
+        "score": 4
+    },
+    {
+        "reasoning": "The eighth case shows correct retention of some events but introduces new events that are missing proper alignment with 'system' in terms of timing and attributes, altering the intended schedule significantly with additional entries like 'Work'.",
+        "score": 4
+    },
+    {
+        "reasoning": "In this ninth instance, system_actual significantly deviates by missing various events from the system. New and unrelated events are added (like 'All-Hands Meeting' with no times specified), leading to a substantial reduction in similarity.",
+        "score": 1
+    },
+    {
+        "reasoning": "The final comparison identified almost exact matches for all events from system except for the 'Junior Staff Training' which had an expanded occurrence day which deviates from 'system'. Other than this slight alteration, all other attributes are consistent, thus scoring quite high.",
+        "score": 9
+    }
+]

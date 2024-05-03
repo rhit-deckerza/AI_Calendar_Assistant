@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "Both calendar entries for 'system' and 'system_actual' are exactly the same, containing two events ('Morning Meditation' and 'Weekly Team Meeting') with identical attributes (allDay, daysOfWeek, startTime, endTime, startRecur, endRecur, title, color).",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The event 'Yoga' matches in all aspects except the 'startRecur' and 'endRecur' dates. 'system' has the dates starting and ending on 2024-04-26, while 'system_actual' has the dates starting and ending on 2024-04-22. Due to the recurrence dates mismatch, the similarity is reduced.",
+        "score": 9
+    },
+    {
+        "reasoning": "The event 'Family Lunch' matches in all aspects except the 'startRecur' and 'endRecur' dates. 'system' uses 2024-04-21 and 'system_actual' uses 2024-04-20 for both start and end dates. The one-day shift in recurrence dates affects the calendar configuration notably.",
+        "score": 9
+    },
+    {
+        "reasoning": "The calendar in 'system_actual' is empty while 'system' contains the event 'Marketing Meetings'. This discrepancy indicates a significant error or oversight as the actual system should have this event.",
+        "score": 1
+    },
+    {
+        "reasoning": "The calendar event 'Work' matches in all aspects except for the 'startRecur' and 'endRecur' dates. 'system' starts and ends on 2024-04-22 while 'system_actual' starts and ends on 2024-04-19. This alters the expectation of the event duration and recurrence significantly.",
+        "score": 9
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    }
+]

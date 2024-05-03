@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The first event in 'system_actual' somewhat matches the 'system' in terms of timing and recurrence range, however, it has an incorrect value in 'daysOfWeek' ([7] is invalid), incorrect start date, different event title (Morning Meditation vs. Morning Meditations), and multiple additional events that are not present in 'system'. This leads to a significant deviation from the expected calendar.",
+        "score": 2
+    },
+    {
+        "reasoning": "The two calendars have the same events but there are modifications: the 'Weekly Team Meetings' title slightly differs from 'Weekly Team Meeting' in the system, paininting to a minor deviation. All other attributes match correctly including recurrence, timing, and dates. Since both essential entries are present but the second one has a slight title discrepancy, the similarity is very high.",
+        "score": 9
+    },
+    {
+        "reasoning": "The 'system_actual' is empty, implying none of the necessary events were provided. According to the user guidance, this scores a 0 because there's a complete absence of the required calendar data.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'system_actual' calendar introduces additional unrelated events (Language Class and Work) and completely misses the main event from the 'system' calendar (Morning Meditation). These issues indicate a significant deviation from the expected content, resulting in a low similarity score.",
+        "score": 1
+    },
+    {
+        "reasoning": "The calendars are completely identical in all aspects including days, times, recurrence range, title, and color. The representation is perfectly matched with the 'system' input.",
+        "score": 10
+    },
+    {
+        "reasoning": "The 'system_actual' contains the correct 'Yoga' event, matching the 'system' perfectly in terms of days, times, recurrence range, title, and color. However, an additional 'Work' event in 'system_actual' which does not exist in 'system' should be considered. It scores highly because the related Yoga event is correctly matched, but not perfect due to extra events.",
+        "score": 8
+    },
+    {
+        "reasoning": "Both sets include the 'Family Lunch' event exactly as in the 'system', but 'system_actual' contains additional events not requested by the 'system'. Though the specific requested event is matched precisely, the addition of unrelated events affects the score.",
+        "score": 7
+    },
+    {
+        "reasoning": "There is no match present as all the events in the 'system_actual' do not align with the 'system' requirements (different days and time for 'Marketing Meetings', and additional unrelated 'Work' and 'Yoga' events). This marks a significant difference.",
+        "score": 1
+    },
+    {
+        "reasoning": "The single event 'Work' matches in definition including days, times, and title, but there is a discrepancy in start and end recurrence dates. The specific attributes match well though timing misalignment impacts the score.",
+        "score": 7
+    },
+    {
+        "reasoning": "The 'system_actual' is empty, implying none of the necessary events were provided. According to the user guidance, this scores a 0 because there's a complete absence of the required calendar data.",
+        "score": 0
+    }
+]

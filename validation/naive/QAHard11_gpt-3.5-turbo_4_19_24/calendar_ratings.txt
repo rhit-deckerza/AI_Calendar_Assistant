@@ -1,0 +1,46 @@
+[
+    {
+        "reasoning": "The 'system_actual' is missing the correct recurrence dates from some entries in the 'system', has a non-matching event with a different color and title, and merges two differently recurrring events from 'system' to a single recurring event, thus not matching the 'system' completely.",
+        "score": 6
+    },
+    {
+        "reasoning": "The 'system_actual' is missing six events from the 'system' and contains an event at a different time and with a different title than any in 'system'. Despite many attributes matching for several events, these issues significantly decrease its score.",
+        "score": 3
+    },
+    {
+        "reasoning": "The 'system_actual' includes extra events that are not in 'system', and some of the events have modified times of the recurring periods. Certain attributes like time and color are changed which lower down the score significantly as these are important aspects of the system.",
+        "score": 2
+    },
+    {
+        "reasoning": "The 'system_actual' is missing some recurring dates and modified the 'title' and 'daysOfWeek' of an event misleading the schedule, thereby deviating from 'system'. Time match for some events is correct but the differences in the critical attributes lead the score to be in the median range.",
+        "score": 4
+    },
+    {
+        "reasoning": "In 'system_actual', despite the closely matching recurrence dates and times for many events, the last event for brainstorming session has different timing and recurrence dates, and color is changed, which is a deviation from 'system'.",
+        "score": 7
+    },
+    {
+        "reasoning": "All attributes for the events in 'system_actual' match exactly with those in 'system', except in the last added Brainstorming Session which doesn't match in color, dates do not match and it starts one hour late which introduces a deviation.",
+        "score": 7
+    },
+    {
+        "reasoning": "The morning briefing event is missing recurring dates in 'system_actual'. The color and timing for one event are correct, but the overhead of the missing crucial attribute along with all other events having identical attributes leads to a higher score but not perfect.",
+        "score": 7
+    },
+    {
+        "reasoning": "All attributes of the events in 'system_actual' match exactly with those in 'system'. Recurrence times, dates, titles, and colors are all matching perfectly.",
+        "score": 10
+    },
+    {
+        "reasoning": "In 'system_actual', the recurring dates for one event (the daily standup) are entirely missing, and another event has been modified with different timing and title which does not compromise much of its scheduling but is noticeable.",
+        "score": 7
+    },
+    {
+        "reasoning": "All attributes for the events in 'system_actual' match exactly with those in 'system'. However, the last event in 'system_actual' changes the time and modifies the recurrence end date, causing deviation.",
+        "score": 8
+    },
+    {
+        "reasoning": "The title of one of the events in 'system_actual' has been modified and significant changes in the schedule of two events are noticed. The absence of strict matching attributes impacts the scheduling intended by 'system.",
+        "score": 7
+    }
+]

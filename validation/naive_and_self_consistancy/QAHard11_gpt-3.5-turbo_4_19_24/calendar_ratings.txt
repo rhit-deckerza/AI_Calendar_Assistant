@@ -1,0 +1,46 @@
+[
+    {
+        "reasoning": "The events in system_actual are highly altered with major errors in event details, missing recurring attributes, switched titles between events, mismatched colors, and wrong number of events. There are multiple inconsistencies with no events matching perfectly, warranting a low score.",
+        "score": 2
+    },
+    {
+        "reasoning": "Although several events matched closely, the 'Weekly Team Lunch' on Wednesdays had several discrepancies including different timing, start date, and end date as well as differing titles. However, with most events matching except minor differences in one, the score is fairly high.",
+        "score": 8
+    },
+    {
+        "reasoning": "The actual system completely lacks events matching the single system event, with entirely different events present. No details from the system event like day, timings, or title match any events in system_actual, justifying the lowest score.",
+        "score": 1
+    },
+    {
+        "reasoning": "Majority of the events closely match, but the 'Client Strategy Meeting' has incorrect timing, and a missing recurring attribute, slightly reducing the otherwise perfect score.",
+        "score": 9
+    },
+    {
+        "reasoning": "Most events match closely except 'Junior Staff Training' where timing and recurring dates differ and color is incorrect. This discrepancy in one of the events reduces the score slightly.",
+        "score": 7
+    },
+    {
+        "reasoning": "The 'Brainstorming Session' has incorrect start and end dates of recurrence, and its title is slightly altered. These discrepancies between the system and system_actual attributes result in a substantial deduction in the score, albeit with the majority of the events unaltered.",
+        "score": 7
+    },
+    {
+        "reasoning": "The 'Morning Briefing' event lacks a required attribute, 'startRecur' and 'endRecur', which leads to a substantial deduction as this is critical information for recurring events. The rest of the attributes do match across both events.",
+        "score": 4
+    },
+    {
+        "reasoning": "Time attributes for 'Project Update' are entirely different, with everything else remaining consistent, amounting to a moderate impact on the score.",
+        "score": 6
+    },
+    {
+        "reasoning": "Titles of one event ('Marketing Review') are altered and scheduling timings do not match leading to a deduction, despite the similarly high fidelity replication in the rest of the events.",
+        "score": 7
+    },
+    {
+        "reasoning": "Exact match in details and properties for 'Technical Discussion' and 'Staff Meeting', but a timing mismatch and incorrect detailing in 'All-Hands Meeting' lower the score. Improper handling of recurrence dates causes further deductions.",
+        "score": 6
+    },
+    {
+        "reasoning": "All events except for 'Junior Staff Training' (which has incorrect timing, day of week, and color) match with exact precision. This single mismatch, however, leads to a minor reduction from an otherwise perfect score.",
+        "score": 9
+    }
+]

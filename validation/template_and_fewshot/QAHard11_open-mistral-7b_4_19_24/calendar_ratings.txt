@@ -1,0 +1,46 @@
+[
+    {
+        "reasoning": "The 'system_actual' JSON is missing for this pair, hence a direct comparison to the 'system' calendar cannot be made which implies a complete mismatch or irrelevance.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'system_actual' calendar is nearly identical to 'system' with the exception of one additional event ('Team Lunch' with color 'brown'), which is not present in the 'system' calendar. This minor addition results in a slight deduction in the score.",
+        "score": 9
+    },
+    {
+        "reasoning": "The 'system_actual' calendar only partially matches the 'system' calendar, with significant differences in event times, days, and titles. Importantly, the 'Work' event in 'system_actual' covers the whole day every weekday which is a major deviation not covered by the events of 'system'. There are multiple discrepancies hence the deduction in the score.",
+        "score": 3
+    },
+    {
+        "reasoning": "Several events in the 'system_actual' calendar either lack recurrence specification and color attributes or have different times and types of events compared to 'system'. For example, the 'Client Strategy Meeting' in 'system' has no matches in 'system_actual' respecting the original timing and new events have been added.",
+        "score": 5
+    },
+    {
+        "reasoning": "The 'system_actual' JSON is missing for this pair, leading to a situation where no comparison can be made, resulting in a complete mismatch or irrelevance.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'system_actual' JSON is missing for this pair, resulting in a situation of complete mismatch or irrelevance due to the unavailability of comparable data.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'system_actual' calendar almost matches the 'system' except for one new event ('Work'), which is not considered in the system. However, the 'system' calendar events are well-matched.",
+        "score": 9
+    },
+    {
+        "reasoning": "The 'system_actual' calendar has a few discrepancies, such as different timings for the 'Project Update' event, and an additional new event. The event timings and attributes should exactly match for a higher score.",
+        "score": 7
+    },
+    {
+        "reasoning": "'system_actual' calendar manages to replicate most of the events exactly from the 'system' calendar except for some discrepancies in the 'Marketing Review' event, which significantly affects the uniformity and thus reduces the score slightly.",
+        "score": 8
+    },
+    {
+        "reasoning": "'system_actual' includes new and irrelevant events (e.g., 'Yoga', 'Work') and has significantly distorted days for existing events, resulting in a score highly abated due to multiple significant discrepancies.",
+        "score": 2
+    },
+    {
+        "reasoning": "While the 'system_actual' tries to match many of the events (like 'Management Meeting', 'Technical Review', 'Executive Session'), the addition of new events that are not present in the 'system' and the altering days of the week for 'Junior Staff Training' affects the overall score.",
+        "score": 7
+    }
+]

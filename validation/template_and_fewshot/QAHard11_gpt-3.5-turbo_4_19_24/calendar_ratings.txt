@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "In the first comparison, the \"system_actual\" calendar correctly reflects the structure for two events but has mismatches in days, recurrence period, event mixing, and color coding. Notable deviations include incorrect daysOfWeek for one event, an entirely missing event, incorrect event titles, and a changed color for one event from 'green' to 'blue'. The score reflects that all main properties are present but with several inaccuracies in details.",
+        "score": 5
+    },
+    {
+        "reasoning": "The \"system_actual\" calendar retains four out of the six original events with correct day, time, recurrence, color, and title. It mistakenly alters the \"Weekly Team Lunch\" to \"Team Lunch\" and changes its timing and color, and totally misses representing this on Wednesdays as per system description. These inaccuracies cause considerable differences from the original, leading to this score.",
+        "score": 7
+    },
+    {
+        "reasoning": "The \"system_actual\" is completely empty and does not return any of the events listed in \"system\". This leads to a complete mismatch and no correct representation of any events.",
+        "score": 0
+    },
+    {
+        "reasoning": "Similar to the previous case, \"system_actual\" is completely empty without representing any of the original events listed in \"system\". Again, this results in a complete mismatch.",
+        "score": 0
+    },
+    {
+        "reasoning": "The \"system_actual\" calendar retains the correct days, times, recurrence, and event titles for two events but changes the color incorrectly for the 'Brainstorming Session'. Additionally, the start recurrence date for the 'Brainstorming Session' is altered, leading to points deductions for these inaccuracies.",
+        "score": 8
+    },
+    {
+        "reasoning": "The \"system_actual\" omits the start and end recurrence dates which are critical for managing the schedule of the event, thus impacting the functionality of the calendar considerably. The time range and all other details are matched correctly; however, the critical function of recurrence date handling brings the score down.",
+        "score": 4
+    },
+    {
+        "reasoning": "The \"system_actual\" correctly shifts one event's timing by an hour but incorrectly changes the title, potentially causing confusion, though it keeps the basic structure and other details right. Additionally, it fails to recognize the days on which the event occurs and would lead to incorrect data representation.",
+        "score": 6
+    },
+    {
+        "reasoning": "All other aspects except the time for the third event and the daysOfWeek in the last event are accurately retained. The 'Marketing Review' is renamed and its timing altered, which might impact its usefulness in a practical scenario. The last event shows a changed pattern of days, affecting the correctness substantially.",
+        "score": 6
+    },
+    {
+        "reasoning": "Both calendars are identical with exact matches in events, parameters, and details, providing a correct and fully mirrored representation between the system and system_actual.",
+        "score": 10
+    },
+    {
+        "reasoning": "There's a significant alteration in the daysOfWeek and the time for the 'Junior Staff Training' event as well as renaming and reassignment of the same as a different event ('Training Session for Junior Staff'). Despite some event and color matches, these substantial changes lead to a moderate score.",
+        "score": 5
+    }
+]

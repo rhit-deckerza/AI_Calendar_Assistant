@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The first events are perfectly matched in both calendars, but system_actual has one major discrepancy, it combines two different meetings into one recurring event with inaccurate color, meeting name and missing duration differences. These errors significantly alter the intention and scheduling criticality of the events compared to system.",
+        "score": 3
+    },
+    {
+        "reasoning": "Several events from the system_actual align perfectly with the system ones. However, there's a significant mistake with the timing and somewhat with the renaming of an event (weekly team lunch changed to team lunch and the time altered, plus other missing events), which decreases the effectiveness of the calendar sync.",
+        "score": 5
+    },
+    {
+        "reasoning": "Large portions of the event attributes match; however, there are some serious discrepancies in the recurrence details for 'Client Strategy Meeting' (different days and dates, and color alteration) which leads to misrepresentations of critical scheduling details, considerably affecting the functionality and usage.",
+        "score": 3
+    },
+    {
+        "reasoning": "While most individual events match in both title and timing, there's a serious mismatch in the redefined event 'Junior Staff Training', altering days, timing, and color. This inconsistency is enough to severely undermine the functional resemblance of the calendars.",
+        "score": 4
+    },
+    {
+        "reasoning": "Events match exactly in titles and recurring days but differ significantly in one event's timing. Such an inconsistency, though minor, still impacts syncing for scheduling purposes affecting the functionality.",
+        "score": 7
+    },
+    {
+        "reasoning": "The first event 'Morning Briefing' matches perfectly. However, the second event 'EndRecur' is missing; the recurrence data must be fully specified when relevant. This partial data could lead to oversight in real-world applications.",
+        "score": 8
+    },
+    {
+        "reasoning": "Although the title of an event was slightly modified, the underlying structural elements such as timings and recurrent schedules remained unchanged, preserving a good level of functionality across the calendars.",
+        "score": 7
+    },
+    {
+        "reasoning": "There's a high fidelity in several attributes, but complete inaccuracies with the 'All-Hands Meeting' including different timings and starting recur dates which are critical to the actual scheduling. These flaws disturb the overall integrity of event planning.",
+        "score": 6
+    },
+    {
+        "reasoning": "While the important attributes like timing and recurrence are maintained for half of the events, significant transformations in scheduling details and colors for critical meetings like 'Management Meeting' contribute to the misalignment of intended schedules.",
+        "score": 2
+    },
+    {
+        "reasoning": "Every critical aspect except for the start and end recurrence dates of one complex event aligns excellently. Minor differences exist, but these do not severely impact the overall functional use.",
+        "score": 7
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "clarity_reasoning": "The system response is not provided in the example. Thus, clarity cannot be evaluated.",
+        "accuracy_reasoning": "There is no response to analyze and compare with the user's request for modifying the 'Engineering Standup' meetings to alternate between sales and engineering topics starting next month.",
+        "clarity": 0,
+        "accuracy": 0
+    },
+    {
+        "clarity_reasoning": "The response is missing in the prompt, and we cannot assess the clarity of the explanation about scheduling a weekly team lunch on Wednesdays.",
+        "accuracy_reasoning": "There is no response provided for a request to find a time for a weekly team lunch on Wednesdays, so accuracy cannot be determined.",
+        "clarity": 0,
+        "accuracy": 0
+    },
+    {
+        "clarity_reasoning": "No response is given, so the description of how to fit a weekly team-building event cannot be evaluated for clarity.",
+        "accuracy_reasoning": "With no provided response, it is impossible to determine if a suitable solution was provided for scheduling a weekly team-building event.",
+        "clarity": 0,
+        "accuracy": 0
+    },
+    {
+        "clarity_reasoning": "Clarity cannot be rated as there is no system response given for incorporating a weekly client strategy meeting in the mornings.",
+        "accuracy_reasoning": "Since there's no system response to judge, the accuracy of fitting a weekly client strategy meeting preferably in the morning cannot be evaluated.",
+        "clarity": 0,
+        "accuracy": 0
+    },
+    {
+        "clarity_reasoning": "Due to the absence of a system's response, there is no basis to evaluate clarity in the context of adding a new bi-weekly training session for junior staff in the late mornings.",
+        "accuracy_reasoning": "Accuracy cannot be assessed because there is no detail or confirmation of scheduling a bi-weekly training session as requested by the user.",
+        "clarity": 0,
+        "accuracy": 0
+    },
+    {
+        "clarity_reasoning": "The response is missing, thus providing no grounds to assess how clearly the system would schedule a brainstorming session every Wednesday afternoon.",
+        "accuracy_reasoning": "Without a response, we cannot evaluate how accurately the system could add a weekly brainstorming session on Wednesday afternoons.",
+        "clarity": 0,
+        "accuracy": 0
+    },
+    {
+        "clarity_reasoning": "Due to the lack of any response, clarity regarding the cancellation of Friday morning briefings cannot be assessed.",
+        "accuracy_reasoning": "The accuracy rating cannot be provided as there is no information or confirmation on the cancellation of the Friday morning briefings.",
+        "clarity": 0,
+        "accuracy": 0
+    },
+    {
+        "clarity_reasoning": "There is no response from the system, therefore we cannot evaluate the clarity of the instructions to move the project updates to the afternoon.",
+        "accuracy_reasoning": "No response prevents assessing the accuracy of whether the project updates have been shifted to the afternoon on the same days as requested.",
+        "clarity": 0,
+        "accuracy": 0
+    },
+    {
+        "clarity_reasoning": "In the absence of a response, the evaluation of clarity in scheduling a weekly marketing review on Monday afternoon cannot be performed.",
+        "accuracy_reasoning": "The accuracy of scheduling a weekly marketing review as detailed in the user request cannot be determined due to the lack of a system response.",
+        "clarity": 0,
+        "accuracy": 0
+    },
+    {
+        "clarity_reasoning": "Without a system reply, clarity cannot be rated for the addition of a monthly all-hands meeting.",
+        "accuracy_reasoning": "There is no response to verify if a monthly all-hands meeting on the first Friday of every month was appropriately scheduled.",
+        "clarity": 0,
+        "accuracy": 0
+    },
+    {
+        "clarity_reasoning": "Once again, in this repeated scenario, the lack of a system response prevents any clarity rating.",
+        "accuracy_reasoning": "Since the earlier request for adding a bi-weekly training session has not been addressed by any response, accuracy cannot be rated.",
+        "clarity": 0,
+        "accuracy": 0
+    }
+]

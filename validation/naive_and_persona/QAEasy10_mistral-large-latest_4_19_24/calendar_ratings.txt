@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "Events in 'system_actual' are similar to 'system', but the recurrence start and end dates are shifted by one day ('2024-04-20' in 'system_actual' versus '2024-04-19' in 'system'). This would affect the accuracy of the calendar, especially if users depend on precise scheduling.",
+        "score": 7
+    },
+    {
+        "reasoning": "Both calendars match perfectly. All event properties including recurrence, timing, and details match between the two systems, making them identical.",
+        "score": 10
+    },
+    {
+        "reasoning": "Both calendars match perfectly. All event properties including recurrence, timing, and details match between the two systems, making them identical.",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars contain additional events in 'system_actual' that were not present in 'system', which leads to a deviation from the requested configuration. Calendar mismatch could lead to confusion or scheduling errors.",
+        "score": 7
+    },
+    {
+        "reasoning": "Both calendars match perfectly. All event properties including recurrence, timing, and details precisely match, making them identical.",
+        "score": 10
+    },
+    {
+        "reasoning": "The recurrence start dates for the yoga event are mismatched ('2024-04-22' in 'system_actual' as opposed to '2024-04-26' in 'system'). This would affect the schedule accuracy on specific days, leading to potential user inconvenience.",
+        "score": 6
+    },
+    {
+        "reasoning": "The timings of the family lunch differ, with 'system_actual' listing 2-hour duration versus 1-hour in 'system'. This discrepancy can lead to critical misunderstandings about availability.",
+        "score": 6
+    },
+    {
+        "reasoning": "The recurrence start date and the recurrence end date in 'system_actual' are incorrect ('2024-05-01' start versus '2024-04-23'; '2044-04-23' end versus '2024-04-30'). There's a significant deviation in the recurrence range which would impact any dependencies on these dates.",
+        "score": 2
+    },
+    {
+        "reasoning": "The recurrence start and end dates in 'system_actual' do not match those in 'system' ('startRecur' of '2024-04-20' versus '2024-04-22'; 'endRecur' of '2044-04-19' versus '2044-04-22'). Dates are essential for accurate event scheduling, and these discrepancies could have considerable impact.",
+        "score": 4
+    },
+    {
+        "reasoning": "Both calendars' entries match perfectly, with matching timings, dates, recurrence details, and titles. This would ensure consistency in event planning and management.",
+        "score": 10
+    }
+]

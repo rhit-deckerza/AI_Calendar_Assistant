@@ -1,0 +1,82 @@
+[
+    [
+        {
+            "user": "<CAL>[]</CAL>I want to start doing morning meditations. Can you add it every day at 6am for 30 minutes?"
+        },
+        {
+            "response": "Sure, I can help with that. I have added a morning meditation event to your calendar. It will occur every day at 6am and last for 30 minutes."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [0,1,2,3,4,5,6], \"startTime\": \"06:00\", \"endTime\": \"06:30\", \"startRecur\": \"2024-04-19\", \"endRecur\": \"2044-04-19\", \"title\": \"Morning Meditation\", \"color\": \"blue\"}]</CAL>I need to schedule time for weekly team meetings on Tuesdays at 10 AM for 2 hours."
+        },
+        {
+            "response": "Sure, I can help with that. I have added a weekly team meeting on Tuesdays from 10 AM to 12 PM to your calendar."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [2], \"startTime\": \"10:00\", \"endTime\": \"12:00\", \"startRecur\": \"2024-04-19\", \"endRecur\": \"2044-04-19\", \"title\": \"Weekly Team Meeting\", \"color\": \"blue\"}]</CAL>I just found out I have a recurring appointment every Tuesday morning. Can you move the team meetings to Thursday at the same time?"
+        },
+        {
+            "response": "Sure, I can help with that. I will move the Weekly Team Meeting from Tuesday to Thursday at the same time, 10:00 to 12:00, starting from this week."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [0,1,2,3,4,5,6], \"startTime\": \"06:00\", \"endTime\": \"06:30\", \"startRecur\": \"2024-04-19\", \"endRecur\": \"2044-04-19\", \"title\": \"Morning Meditation\", \"color\": \"blue\"}]</CAL>I'd like to start going to a language class which happens every Wednesday evening. What times do you recommend?"
+        },
+        {
+            "response": "Based on your current calendar, you have a morning meditation every day from 6:00 AM to 6:30 AM. There are no other events on your calendar, so there are many time slots available for your language class on Wednesdays.\n\nHowever, since you didn't specify a duration for the language class, I'll assume it lasts for 1.5 hours, which is a common duration for many classes. With that assumption, here are a few time slots you could consider:\n\n1. 8:00 AM to 9:30 AM\n2. 10:00 AM to 11:30 AM\n3. 1:00 PM to 2:30 PM\n4. 3:00 PM to 4:30 PM\n5. 6:00 PM to 7:30 PM\n6. 8:00 PM to 9:30 PM\n\nPlease let me know which time slot you prefer, or if you have any other preferences or constraints for this class, and I can add it to your calendar.\n\nHere's your current calendar:"
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[]</CAL> Can you schedule my 'Marketing Meetings' every Tuesday and Thursday at 10:00 AM starting next week?"
+        },
+        {
+            "response": "Sure, I have scheduled your 'Marketing Meetings' every Tuesday and Thursday at 10:00 AM starting from next week. The meetings will be one hour long and will recur until 2044."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1], \"startTime\": \"08:00\", \"endTime\": \"09:00\", \"startRecur\": \"2024-04-22\", \"endRecur\": \"2044-04-22\", \"title\": \"Yoga\", \"color\": \"blue\"}]</CAL> I need to move my Yoga sessions to Fridays, starting at 7:30 AM."
+        },
+        {
+            "response": "Sure, I have updated your Yoga sessions to take place on Fridays, starting at 7:30 AM and ending at 8:30 AM."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[]</CAL> Add a family lunch every Sunday at noon, starting this week."
+        },
+        {
+            "response": "Sure, I have added a family lunch event every Sunday at noon starting from this week."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [2, 4], \"startTime\": \"10:00\", \"endTime\": \"11:00\", \"startRecur\": \"2024-04-23\", \"endRecur\": \"2044-04-23\", \"title\": \"Marketing Meetings\", \"color\": \"blue\"}]</CAL> I need to cancel all Marketing Meetings starting from next month."
+        },
+        {
+            "response": "Sure, I understand that you want to cancel all Marketing Meetings starting from May 2024. I have updated your calendar accordingly.\n\n\n\nExplanation: Since you want to cancel all Marketing Meetings starting from next month, I have removed the recurring event from your calendar. The next occurrence of the Marketing Meeting would have been on May 7, 2024 (as the meetings are on Tuesdays and Thursdays), so I have removed the event from that date onwards. This means all Marketing Meetings scheduled from May 2024 to April 2044 have been cancelled."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[]</CAL> I just got a new job, can you block off 9 to 5, Monday to Friday?"
+        },
+        {
+            "response": "Sure, I can help with that. I will add a new event titled \"Work\" from 9 am to 5 pm, Monday to Friday, starting from today and recurring until 20 years from now. Here's your updated calendar:\n\n```\n\n```"
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [0], \"startTime\": \"12:00\", \"endTime\": \"13:00\", \"startRecur\": \"2024-04-21\", \"endRecur\": \"2044-04-21\", \"title\": \"Family Lunch\", \"color\": \"blue\"}]</CAL> Can you change the family lunch to last for two hours instead of one?"
+        },
+        {
+            "response": "Sure, I have updated the Family Lunch event to last for two hours, from 12pm to 2pm."
+        }
+    ]
+]

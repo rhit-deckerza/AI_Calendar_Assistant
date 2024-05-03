@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars are completely identical with each event matching perfectly in all attributes",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars are completely identical with each event matching perfectly in all attributes",
+        "score": 10
+    },
+    {
+        "reasoning": "The `system_actual` calendar is missing, which makes it impossible to compare events. According to the specification, a missing or invalid system_actual calendar results in a score of 0.",
+        "score": 0
+    },
+    {
+        "reasoning": "The calendars are completely identical with each event matching perfectly in all attributes",
+        "score": 10
+    },
+    {
+        "reasoning": "There are discrepancies in the event: the `endTime` is extended by 1.5 hours, and the `endRecur` date is prematurely set 4 days before the `system` calendar. These discrepancies affect the overall similarity between the calendars.",
+        "score": 6
+    },
+    {
+        "reasoning": "There are discrepancies in the event: the `endTime` is extended by 1 hour. This duration difference is significant but does not completely alter the fundamental nature of the event.",
+        "score": 8
+    },
+    {
+        "reasoning": "The calendars are completely identical with each event matching perfectly in all attributes.",
+        "score": 10
+    },
+    {
+        "reasoning": "There are discrepancies in `startRecur` and `endRecur` dates, which are both 3 days ahead of the corresponding dates in `system`. These differences in dates are crucial in defining the period of event occurrence.",
+        "score": 6
+    },
+    {
+        "reasoning": "The calendars are completely identical with each event matching perfectly in all attributes.",
+        "score": 10
+    }
+]

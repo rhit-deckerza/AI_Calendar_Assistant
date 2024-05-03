@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "While each event in the system_actual seems to attempt to match events in the system, several discrepancies exist: the startRecurs, endRecurs, titles, and the color for one event are not consistent, affecting the exact match of the calendars.",
+        "score": 4
+    },
+    {
+        "reasoning": "Only a few events from the complete system list have been accurately replicated in the system_actual. Many events are missing, and one incorrectly color changed event ('Team Lunch' in place of 'Weekly Team Lunch', wrong color) disrupts the match.",
+        "score": 3
+    },
+    {
+        "reasoning": "The events in system_actual share some resemblance with the ones in system but are not complete or precise, such as the absence of exact matching 'allDay' attributes, incorrect event (Tech Review placed erroneously), and mismatched color in the 'Client Strategy Meeting'.",
+        "score": 2
+    },
+    {
+        "reasoning": "Although five events match well, one event ('Junior Staff Training') has wrong days, start and end recurring dates, and mismatched color. This significantly impacts the calendar alignment.",
+        "score": 7
+    },
+    {
+        "reasoning": "Most attributes match, except for the 'Brainstorming Session', which has incorrect startTime, endTime, and color.",
+        "score": 6
+    },
+    {
+        "reasoning": "The actual calendar is completely empty but the system calendar has events scheduled, hence there is no match.",
+        "score": 1
+    },
+    {
+        "reasoning": "Dates and recurrences are aligned well, but the starting and ending times deviate by an hour, leading to slight discrepancies, which still make the calendars somewhat unaligned.",
+        "score": 7
+    },
+    {
+        "reasoning": "While all the events generally match, 'Marketing Review' is significantly altered with a different time and a mismatched color, impacting the overall exactness.",
+        "score": 7
+    },
+    {
+        "reasoning": "While most event details align perfectly, the 'All-Hands Meeting' has significant modification in timing and color disruption, detracting from a perfect match score.",
+        "score": 7
+    },
+    {
+        "reasoning": "All events perfectly match in all their attributes except for 'Junior Staff Training', which shows discrepancies in startRecur, endRecur, and also color.",
+        "score": 7
+    }
+]

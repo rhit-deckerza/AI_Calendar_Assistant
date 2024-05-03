@@ -1,0 +1,90 @@
+[
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1,3], \"startTime\": \"10:00\", \"endTime\": \"11:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2024-04-30\", \"title\": \"Engineering Standup\", \"color\": \"green\"}]</CAL>Can you modify my engineering standup meetings so they alternate between sales and engineering standups starting next month?"
+        },
+        {
+            "response": "Certainly! To alternate between sales and engineering standups, I will schedule each meeting to occur on alternating Mondays and Wednesdays starting next month.\n\nHere is your new calendar with the updated standups alternating each week:\n\n\nEach standup will now rotate between the two teams on subsequent Mondays and Wednesdays."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1,2,3,4,5], \"startTime\": \"09:00\", \"endTime\": \"10:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Morning Meeting\", \"color\": \"blue\"}, {\"allDay\": false, \"daysOfWeek\": [1,3,5], \"startTime\": \"10:30\", \"endTime\": \"11:30\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Project Sync\", \"color\": \"green\"}, {\"allDay\": false, \"daysOfWeek\": [2,4], \"startTime\": \"12:00\", \"endTime\": \"13:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Client Calls\", \"color\": \"red\"}, {\"allDay\": false, \"daysOfWeek\": [1,2,3,4,5], \"startTime\": \"14:00\", \"endTime\": \"15:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Development Time\", \"color\": \"purple\"}, {\"allDay\": false, \"daysOfWeek\": [1,2,3,4,5], \"startTime\": \"16:00\", \"endTime\": \"17:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"End of Day Review\", \"color\": \"orange\"}]</CAL>Can you find a time for a weekly team lunch on Wednesdays?"
+        },
+        {
+            "response": "Given the existing events on your calendar for Wednesdays, we have the following blocks of time occupied:\n\n- 09:00 to 10:00 - Morning Meeting\n- 10:30 to 11:30 - Project Sync\n- 14:00 to 15:00 - Development Time\n- 16:00 to 17:00 - End of Day Review\n\nA suitable time for a weekly team lunch on Wednesdays would be either before the Project Sync, between 11:30 and 14:00, or after the Development Time, from 15:00 to 16:00. \n\nI propose scheduling the team lunch from 12:00 to 13:00 on Wednesdays, right after \"Client Calls\" on alternate days, which should not interfere with your Wednesday schedule."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1], \"startTime\": \"08:00\", \"endTime\": \"09:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Yoga\", \"color\": \"blue\"}, {\"allDay\": false, \"daysOfWeek\": [1,3,5], \"startTime\": \"09:30\", \"endTime\": \"10:30\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Sales Meeting\", \"color\": \"green\"}, {\"allDay\": false, \"daysOfWeek\": [1,3], \"startTime\": \"11:00\", \"endTime\": \"12:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Tech Review\", \"color\": \"red\"}, {\"allDay\": false, \"daysOfWeek\": [1,2,3,4,5], \"startTime\": \"13:00\", \"endTime\": \"14:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Lunch Break\", \"color\": \"purple\"}, {\"allDay\": false, \"daysOfWeek\": [1,2,3,4,5], \"startTime\": \"15:00\", \"endTime\": \"16:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Strategy Session\", \"color\": \"orange\"}]</CAL>I need to fit in a weekly team building event. When could we do this?"
+        },
+        {
+            "response": "Looking at your current schedule, I can see that you have openings on Mondays, Wednesdays, and Fridays after the Tech Review at 12:00 PM until your Lunch Break at 1:00 PM. Another option could be the hour after your Lunch Break at 2:00 PM until the Strategy Session starts at 3:00 PM, available all weekdays. \n\nWould one of these options work for your team building event? If so, which timeslot and day would you prefer to schedule it?"
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1,2,3,4,5], \"startTime\": \"08:00\", \"endTime\": \"09:00\", \"title\": \"Morning Briefing\", \"color\": \"blue\"}, {\"allDay\": false, \"daysOfWeek\": [1,3], \"startTime\": \"10:00\", \"endTime\": \"11:30\", \"title\": \"Department Meeting\", \"color\": \"green\"}, {\"allDay\": false, \"daysOfWeek\": [2,4], \"startTime\": \"15:00\", \"endTime\": \"16:00\", \"title\": \"Sales Update\", \"color\": \"red\"}, {\"allDay\": false, \"daysOfWeek\": [1], \"startTime\": \"12:00\", \"endTime\": \"13:30\", \"startRecur\": \"2024-05-06\", \"endRecur\": \"2044-05-06\", \"title\": \"All-Hands Meeting\", \"color\": \"purple\"}, {\"allDay\": false, \"daysOfWeek\": [5], \"startTime\": \"14:00\", \"endTime\": \"16:00\", \"title\": \"Training Session\", \"color\": \"orange\"}]</CAL>I need to fit a weekly client strategy meeting into my schedule. Preferably in the morning. Any suggestions?"
+        },
+        {
+            "response": "Looking at your current schedule, the mornings are quite packed on some days, but there are opportunities on Thursday or Friday mornings:\n\n1. **Thursday**: The morning is free up to 3:00 PM when you have the Sales Update meeting.\n2. **Friday**: You have the Training Session at 2:00 PM, but the morning is free.\n\nConsidering common business hours and the available slots, I suggest scheduling the weekly **Client Strategy Meeting** on **Thursday mornings** from **10:00 AM to 11:00 AM**, as this should provide a balance and avoids too early starts which are often less favored for strategic discussions.\n\nWould you like me to schedule it for these times?"
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1], \"startTime\": \"10:00\", \"endTime\": \"11:00\", \"title\": \"Management Meeting\", \"color\": \"blue\"}, {\"allDay\": false, \"daysOfWeek\": [4], \"startTime\": \"14:00\", \"endTime\": \"15:30\", \"title\": \"Technical Review\", \"color\": \"green\"}, {\"allDay\": false, \"daysOfWeek\": [2], \"startTime\": \"13:00\", \"endTime\": \"15:00\", \"startRecur\": \"2024-04-30\", \"endRecur\": \"2044-04-30\", \"title\": \"Executive Session\", \"color\": \"red\"}, {\"allDay\": false, \"daysOfWeek\": [5], \"startTime\": \"11:00\", \"endTime\": \"12:00\", \"startRecur\": \"2024-05-10\", \"endRecur\": \"2044-05-10\", \"title\": \"HR Update\", \"color\": \"orange\"}]</CAL>I need to add a new bi-weekly training session for junior staff, preferably in the late mornings. Can you help?"
+        },
+        {
+            "response": "Absolutely. I've scheduled a bi-weekly training session for junior staff on Wednesdays from 11:00 AM to 12:00 PM starting this week, ongoing for the next 20 years."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1], \"startTime\": \"09:00\", \"endTime\": \"10:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Strategy Meeting\", \"color\": \"blue\"}]</CAL>Can you add a weekly brainstorming session every Wednesday afternoon?"
+        },
+        {
+            "response": "To schedule your weekly brainstorming session on Wednesday afternoons, I'll assume it lasts for an hour starting at 1:00 PM."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1,2,3,4,5], \"startTime\": \"08:00\", \"endTime\": \"09:00\", \"title\": \"Morning Briefing\", \"color\": \"blue\"}]</CAL>I need to cancel the Friday morning briefings."
+        },
+        {
+            "response": "I have removed the Friday morning briefing from your calendar. Here's the updated schedule:"
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [2,4], \"startTime\": \"11:00\", \"endTime\": \"12:00\", \"startRecur\": \"2024-04-02\", \"endRecur\": \"2044-04-02\", \"title\": \"Project Update\", \"color\": \"green\"}]</CAL>Can we move the project updates to the afternoon on the same days?"
+        },
+        {
+            "response": "Sure, I've moved the \"Project Update\" meetings to the afternoon, specifically from 3:00 PM to 4:00 PM on the same days, Tuesdays and Thursdays."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1,2,3,4,5], \"startTime\": \"09:00\", \"endTime\": \"10:00\", \"title\": \"Daily Standup\", \"color\": \"blue\"}, {\"allDay\": false, \"daysOfWeek\": [1,3,5], \"startTime\": \"10:30\", \"endTime\": \"11:30\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Project Sync\", \"color\": \"green\"}]</CAL>Can you schedule a weekly marketing review on Monday afternoons?"
+        },
+        {
+            "response": "Certainly! I have scheduled the weekly marketing review for Monday afternoons from 1pm to 2pm every week."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1,3], \"startTime\": \"14:00\", \"endTime\": \"15:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Technical Discussion\", \"color\": \"green\"}, {\"allDay\": false, \"daysOfWeek\": [2,4,5], \"startTime\": \"13:00\", \"endTime\": \"14:00\", \"startRecur\": \"2024-04-01\", \"endRecur\": \"2044-04-01\", \"title\": \"Staff Meeting\", \"color\": \"blue\"}]</CAL>I'd like to add a monthly all-hands meeting on the first Friday of every month."
+        },
+        {
+            "response": "Of course, I've added a monthly all-hands meeting on the first Friday of each month, assuming a one-hour duration for this meeting."
+        }
+    ],
+    [
+        {
+            "user": "<CAL>[{\"allDay\": false, \"daysOfWeek\": [1], \"startTime\": \"10:00\", \"endTime\": \"11:00\", \"title\": \"Management Meeting\", \"color\": \"blue\"}, {\"allDay\": false, \"daysOfWeek\": [4], \"startTime\": \"14:00\", \"endTime\": \"15:30\", \"title\": \"Technical Review\", \"color\": \"green\"}, {\"allDay\": false, \"daysOfWeek\": [2], \"startTime\": \"13:00\", \"endTime\": \"15:00\", \"startRecur\": \"2024-04-30\", \"endRecur\": \"2044-04-30\", \"title\": \"Executive Session\", \"color\": \"red\"}, {\"allDay\": false, \"daysOfWeek\": [5], \"startTime\": \"11:00\", \"endTime\": \"12:00\", \"startRecur\": \"2024-05-10\", \"endRecur\": \"2044-05-10\", \"title\": \"HR Update\", \"color\": \"orange\"}]</CAL>I need to add a new bi-weekly training session for junior staff, preferably in the late mornings. Can you help?"
+        },
+        {
+            "response": "Considering the existing meetings on your calendar and avoiding any conflicts, I will schedule the bi-weekly training session for junior staff on Tuesday and Thursday late mornings from 11:00 AM to 12:00 PM starting from the next week, April 24th, 2024."
+        }
+    ]
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "reasoning": "The system_actual accurately captures most of the events from the system, with the same daysOfWeek, startTime, endTime, and titles. However, two issues are noted: one event 'Engineering Standup' is completely missing, and the dates for the two existing events are mistakenly set a month earlier than required, thus reducing the score.",
+        "score": 7
+    },
+    {
+        "reasoning": "The system_actual missed only one weekly event (Weekly Team Lunch), while correctly representing all other events exactly as in the system without any altered attribute. Although one event is missing, others were correctly transferred which impacts the score significantly.",
+        "score": 8
+    },
+    {
+        "reasoning": "The system_actual includes multiple events that do not exist in the system and completely misses the originally listed event 'Weekly Team Building'. The information about days, times and recurrence dates is deeply mismatched which makes it significantly different.",
+        "score": 1
+    },
+    {
+        "reasoning": "The system_actual provides no data which makes it impossible to match any events from the system, thus the score falls to the lowest as there is a complete absence of intended information.",
+        "score": 0
+    },
+    {
+        "reasoning": "The system_actual almost perfectly mirrors the system with all events having correct attributes except the 'Junior Staff Training' where the color is wrongly set to 'blue' instead of 'purple', which is a minor issue in comparison to other attributes.",
+        "score": 9
+    },
+    {
+        "reasoning": "The system_actual reflects the system with the exact events and attributes including start and end dates of recurrence and exact details of daysOfWeek, startTime, and endTime. However, 'Brainstorming Session' has altered startTime, endTime, and startRecur which are critical attributes, thus decreasing the score slightly.",
+        "score": 8
+    },
+    {
+        "reasoning": "The system_actual correctly reproduces the 'Morning Briefing' but lacks important attributes like startRecur and endRecur. Though not immediately impactful for single time slots, these are critical attributes for maintaining calendar integrity over a long period which results in a lower score.",
+        "score": 6
+    },
+    {
+        "reasoning": "Despite system_actual retaining the correct daysOfWeek and startRecur, endRecur dates, the time of the 'Project Update' has been changed from 15:00-16:00 to 13:00-14:00. This time change is critical, impacting the usability of the event.",
+        "score": 6
+    },
+    {
+        "reasoning": "system_actual attempts to replicate events from the system but falters in representing the 'Marketing Review' event where the timing has been altered, and the title is also slightly changed. While days and recurrence are accurately captured, timing and exact titling precise are less accurate.",
+        "score": 7
+    },
+    {
+        "reasoning": "No data in system_actual to evaluate the match with the system, leading to a score of 0.",
+        "score": 0
+    },
+    {
+        "reasoning": "system_actual replicates most of the events from the system with exact attributes, however, it inaccurately extends 'Junior Staff Training' to both '3' and '4' days instead of just '3', and having an incorrect title which affects the score.",
+        "score": 8
+    }
+]

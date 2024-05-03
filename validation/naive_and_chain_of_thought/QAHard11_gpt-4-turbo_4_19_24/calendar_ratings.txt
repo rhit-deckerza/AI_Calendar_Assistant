@@ -1,0 +1,46 @@
+[
+    {
+        "reasoning": "The system_actual array for the first comparison is missing an entire event from the April period present in system. There's also an error with the 'Sales Standup' event where the color has changed from green to blue, which contributes to further deviation. The 'endRecur' on both 'system_actual' events disagrees with the 'system' events (2044-04-30 versus 2044-05-01).",
+        "score": 4
+    },
+    {
+        "reasoning": "In the second comparison, the 'system_actual' array completely replicates every event from 'system' perfectly, although the 'Weekly Team Lunch' has a different recurrence end date than anticipated (2044-04-01 versus 2044-04-24). Despite this, since all events are replicated correctly and only one minor date error, the overall alignment is high.",
+        "score": 9
+    },
+    {
+        "reasoning": "In the third comparison, 'system_actual' includes multiple completely different events with varying times, titles, and recurrence patterns. There are additional events in 'system_actual' that do not align with the single event defined in 'system'.",
+        "score": 1
+    },
+    {
+        "reasoning": "The fourth comparison shows good alignment except for the last event ('Client Strategy Meeting') which has an incorrect and inconsistent starting recurrence date, end recurrence date, and color compared to 'system'. The inconsistency in recurring dates and color leads to a drop in the score.",
+        "score": 7
+    },
+    {
+        "reasoning": "The fifth comparison shows a critical deviation in the 'Junior Staff Training' event where the start time has changed and the color is incorrect. All other events are perfectly replicated.",
+        "score": 7
+    },
+    {
+        "reasoning": "The sixth comparison presents minor discrepancies: 'Brainstorming Session' time and color have both been altered. This misalignment reduces the score.",
+        "score": 7
+    },
+    {
+        "reasoning": "The seventh comparison involves an empty 'system_actual', making it impossible to score any points for similarity as there are no events to compare.",
+        "score": 0
+    },
+    {
+        "reasoning": "In the eighth comparison, the 'system_actual' event timing does not match the 'system' timing (13:00-14:00 versus 15:00-16:00). Although the dates and other attributes are consistent, the time difference is significant.",
+        "score": 6
+    },
+    {
+        "reasoning": "The ninth comparison is nearly perfect except for the 'Weekly Marketing Review' event in 'system_actual' which not only has a different name but also a different time, which deviates from 'system'.",
+        "score": 8
+    },
+    {
+        "reasoning": "In the tenth comparison, all events matches perfectly in attributes except for the 'Monthly All-Hands Meeting', where both the time and color are different from 'system'. This discrepancy reduces the score.",
+        "score": 7
+    },
+    {
+        "reasoning": "In the eleventh comparison, the 'Junior Staff Training' event has an error in both timing and color, deviating slightly from 'system'. Other attributes for different events are matched correctly.",
+        "score": 7
+    }
+]

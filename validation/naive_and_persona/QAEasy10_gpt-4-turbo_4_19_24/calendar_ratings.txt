@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The attributes of the system_actual event match the system event except for the 'startRecur' date, which is one day off. This could lead to mismatched events over a span of 20 years. However, all other attributes match, including the repetition, times, and recurrence span.",
+        "score": 8
+    },
+    {
+        "reasoning": "The system_actual matches the first event entirely; however, the second event 'startRecur' is incorrectly set as '2024-04-23' rather than '2024-04-19'. The 'endRecur' for the second event is also incorrect, set to '2044-04-23' instead of '2044-04-19'. Despite the duration of the events matching, the shift in recurrence start and end dates is significant.",
+        "score": 7
+    },
+    {
+        "reasoning": "The system_actual calendar is missing which results in no comparison possible with the system calendar. According to the instructions, if 'system_actual' is absent, missing, or invalid, the score is 0.",
+        "score": 0
+    },
+    {
+        "reasoning": "The system_actual calendar is missing which results in no comparison possible with the system calendar. According to the instructions, if 'system_actual' is absent, missing, or invalid, the score is 0.",
+        "score": 0
+    },
+    {
+        "reasoning": "The system_actual calendar is completely identical to the system calendar with all attributes matching perfectly.",
+        "score": 10
+    },
+    {
+        "reasoning": "The system_actual event matches the system event perfectly in all attributes including recurrence, timing, and color.",
+        "score": 10
+    },
+    {
+        "reasoning": "While both events match in most attributes, the 'endTime' of the system_actual event is incorrectly set to '14:00' instead of '13:00' as in the system event. Despite this, the impact on the overall scheduling isn't severe but important.",
+        "score": 9
+    },
+    {
+        "reasoning": "The system_actual calendar is empty and does not contain the event specified in the system calendar. This results in a complete mismatch.",
+        "score": 0
+    },
+    {
+        "reasoning": "The system_actual event's 'startRecur' and 'endRecur' dates don't match the system event's dates. This mismatch in recurrence dates can lead to errors in scheduling over the span of 20 years.",
+        "score": 7
+    },
+    {
+        "reasoning": "The system_actual event matches the system event perfectly in all attributes including recurrence, timing, titles, and dates.",
+        "score": 10
+    }
+]

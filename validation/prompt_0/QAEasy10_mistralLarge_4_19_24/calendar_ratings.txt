@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The events in both calendars are identical but the order of events is different. Since order does not affect the content or timing of events, the score is 9 due to slight order variation.",
+        "score": 9
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars would have been identical except that 'system_actual' contains an additional event ('Language Class') that 'system' does not have. This addition makes the calendars not identical but still largely similar.",
+        "score": 8
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The events in both calendars are identical but there is a difference in the 'startRecur' attribute ('2024-04-26' in system vs '2024-04-22' in system_actual). This small difference affects the accuracy of event scheduling.",
+        "score": 7
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "While the timings and recurring days remain consistent, there is a discrepancy in the 'startRecur' and 'endRecur' dates, as well as a different title name ('Work' in system vs 'New Job' in system_actual). While they may refer to the same context, the differences present, particularly in the date range, lead to a reduction in score.",
+        "score": 8
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    }
+]

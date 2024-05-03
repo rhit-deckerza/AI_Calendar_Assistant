@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "Most attributes are matched but startRecur and endRecur dates in system_actual start a day later ('2024-04-20') than in the system ('2024-04-19'). This significant change affects the recurrences of the event, so a small deduction is made.",
+        "score": 9
+    },
+    {
+        "reasoning": "The events are completely identical across both calendars, both in terms of attributes and the number of events.",
+        "score": 10
+    },
+    {
+        "reasoning": "The events are completely identical across both calendars. There are no discrepancies in attributes or the events' set periods.",
+        "score": 10
+    },
+    {
+        "reasoning": "The events are completely identical across both calendars, with all attributes exactly matching.",
+        "score": 10
+    },
+    {
+        "reasoning": "All attributes are present and correctly matched between the system and system_actual. However, system_actual represents the events in a different order from how attributes are conventionally listed. But since JSON objects are unordered, this does not affect the comparison. Full score.",
+        "score": 10
+    },
+    {
+        "reasoning": "All attributes are correctly matched and identical between system and system_actual.",
+        "score": 10
+    },
+    {
+        "reasoning": "While all other attributes are identical, the endTime differs between the systems (system ends at '13:00', system_actual ends at '14:00'). This 1-hour difference significantly affects the containment of the event.",
+        "score": 6
+    },
+    {
+        "reasoning": "The events and all attributes match perfectly between the provided system and system_actual.",
+        "score": 10
+    },
+    {
+        "reasoning": "While most attributes are matched, the startRecur and endRecur in the system_actual start two days earlier ('2024-04-20' vs. '2024-04-22'). This major shift affects the overall schedule and recurrence.",
+        "score": 8
+    },
+    {
+        "reasoning": "Events and attributes are completely identical in both system and system_actual for this entry, with proper alignment of times and recurrence dates.",
+        "score": 10
+    }
+]

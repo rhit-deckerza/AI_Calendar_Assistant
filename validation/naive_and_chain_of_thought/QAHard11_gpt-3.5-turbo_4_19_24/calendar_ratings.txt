@@ -1,0 +1,46 @@
+[
+    {
+        "reasoning": "The first actual calendar reproduces the two events from the first original event but splits it into separate events with the correct details except the Sales Standup has incorrect color 'blue' instead of 'green'. The second actual event has divided differently, and these replicate the original in terms of days and dates, but the Sales Standup is incorrectly colored. Overall, key aspects match, but with minor discrepancies in color for one event, it lowers the similarity slightly.",
+        "score": 8
+    },
+    {
+        "reasoning": "In the original calendar, there are more events than in the actual calendar. The 'Weekly Team Lunch' and 'End of Day Review' are missing, and the timing on 'Team Lunch' is modified inaccurately. This causes a significant divergence from the original setup, ultimately impacting functional alignment.",
+        "score": 6
+    },
+    {
+        "reasoning": "The actual system introduces multiple new events and changes drastically from the original which has only one event, 'Weekly Team Building'. The actual system completely misses the original event in terms of title, timings, and other details, representing a low similarity.",
+        "score": 2
+    },
+    {
+        "reasoning": "The final actual calendar introduces changes in time for 'Client Strategy Meeting' and changes its color which is not consistent with the original. Other events retain full consistency in title, timing, and other details.",
+        "score": 8
+    },
+    {
+        "reasoning": "The event 'Junior Staff Training' from the actual schedule significantly differs in title and is slightly off in its timing, both of which impact the functional understanding of what the meeting entails. Other events match well with the original.",
+        "score": 9
+    },
+    {
+        "reasoning": "The actual calendar has a completely new event structure for the 'Brainstorming Session', being inaccurately represented in both duration and timing, diverging from the original recurring window. This significant change alters the intention of the scheduling.",
+        "score": 7
+    },
+    {
+        "reasoning": "The actual calendar adds an event for Friday and modifies the 'Morning Briefing' to five days a week without specifying 'startRecur' and 'endRecur' dates, diverging from the original deeply.",
+        "score": 4
+    },
+    {
+        "reasoning": "While the event title and dates of repetition accurately coincide, the timing of the 'Project Update' event is altered, which impacts the event's functional scheduling alignment.",
+        "score": 7
+    },
+    {
+        "reasoning": "All events closely follow the original except for 'Marketing Review', which not only has timing changes but is also inaccurately renamed to 'Weekly Marketing Review', impacting the relevance and accurate reflection of the intended event.",
+        "score": 7
+    },
+    {
+        "reasoning": "Two events closely match the original, capturing all attributes like title, timing, color, and days. However, the 'All-Hands Meeting' incorrectly changes in days and dates, reflecting an inaccurate scheduling compared to the original which ultimately affects its functional intent.",
+        "score": 8
+    },
+    {
+        "reasoning": "The actual schedule correctly replicates three events but significantly changes 'Junior Staff Training' both in terms of timing, days of the week, and colors to the extent of affecting the expected functional outcome and natural understanding of the event.",
+        "score": 8
+    }
+]

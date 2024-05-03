@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The calendars are completely identical.",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars match in all respects except for the startRecur date of the 'Weekly Team Meeting' event. This is a minor difference, therefore the score is slightly reduced.",
+        "score": 9
+    },
+    {
+        "reasoning": "The calendars are completely identical.",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars are completely identical.",
+        "score": 10
+    },
+    {
+        "reasoning": "The endTime for 'Marketing Meetings' in system_actual is incorrect - 10:00 instead of 11:00. All other details match correctly.",
+        "score": 8
+    },
+    {
+        "reasoning": "The startRecur date in system_actual is mismatched, listed as '2024-04-22' instead of '2024-04-26'. This discrepancy affects the scheduling alignment.",
+        "score": 8
+    },
+    {
+        "reasoning": "The calendars are completely identical.",
+        "score": 10
+    },
+    {
+        "reasoning": "Only the endRecur date is mismatched by one day in system_actual. All other aspects of the event are correctly matched.",
+        "score": 9
+    },
+    {
+        "reasoning": "The endRecur date in system_actual is one day earlier than in system. This is a minor discrepancy, but crucial for long-term scheduling.",
+        "score": 9
+    },
+    {
+        "reasoning": "The calendars are completely identical.",
+        "score": 10
+    }
+]

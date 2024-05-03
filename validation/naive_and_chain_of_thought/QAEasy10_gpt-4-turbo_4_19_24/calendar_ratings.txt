@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "All attributes match except the 'startRecur' date for the 'Weekly Team Meeting' event in system_actual, which is '2024-04-24' instead of '2024-04-19' as in the system. This difference in the recurring start date for one of the events results in a minor discrepancy.",
+        "score": 9
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The events 'Morning Meditation' are identical, but there is an additional event 'Language Class' in the system_actual that is not in the system, and this event has a different color 'green'. This significant difference decreases the similarity.",
+        "score": 7
+    },
+    {
+        "reasoning": "All attributes are exact matches for the 'Marketing Meetings' event.",
+        "score": 10
+    },
+    {
+        "reasoning": "The 'Yoga' event has a different 'startRecur' and 'endRecur' in system_actual ('2024-04-22') compared to the system ('2024-04-26'). This discrepancy in the starting and ending date of recurrence affects the similarity significantly.",
+        "score": 7
+    },
+    {
+        "reasoning": "All attributes except 'endRecur' match. The 'endRecur' for 'Family Lunch' in system_actual is '2044-04-19' whereas in the system it is '2044-04-21'. This small discrepancy in the recurrence ending date results in a minor difference.",
+        "score": 9
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The system_actual calendar is empty while the system contains a detailed recurring work schedule. This results in a complete mismatch.",
+        "score": 1
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    }
+]

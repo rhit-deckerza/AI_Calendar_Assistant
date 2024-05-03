@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "All attributes of the events match, but the title of the second event, 'Team Meetings', does not match 'Weekly Team Meeting'. Difference in title results in a slightly lower score.",
+        "score": 9
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "All attributes match except for the 'startRecur' date, which differs ('2024-04-26' in system vs. '2024-04-22' in system_actual) leading to a slight score deduction.",
+        "score": 8
+    },
+    {
+        "reasoning": "All attributes match except for the 'endTime', which differs ('13:00' in system vs. '14:00' in system_actual). This time difference results in a score reduction.",
+        "score": 8
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "All attributes except 'startRecur' and 'endRecur' dates match. They differ slightly, causing a score reduction (2024-04-19 vs. 2024-04-22 and 2044-04-19 vs. 2044-04-22).",
+        "score": 8
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    }
+]

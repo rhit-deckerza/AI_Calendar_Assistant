@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "Both events in the calendars have the same properties except for the start and end recurrence dates, which differ by one day. This discrepancy affects the total accuracy slightly.",
+        "score": 9
+    },
+    {
+        "reasoning": "While the first event of both calendars matches perfectly, the second event in 'system_actual' has a different start recurrence date from the 'system', with a 4-day shift. Although it's a minor shift, it affects a few occurrences over 20 years.",
+        "score": 8
+    },
+    {
+        "reasoning": "The 'system_actual' data is missing, indicating no events, which is a complete mismatch from the given 'system' that includes a detailed event.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'system_actual' data is missing, indicating no events, which contrasts entirely with the 'system' which includes a detailed event.",
+        "score": 0
+    },
+    {
+        "reasoning": "All properties match exactly except for the order of properties in the JSON objects. The standard properties and their values are nevertheless correct and consistent.",
+        "score": 10
+    },
+    {
+        "reasoning": "Both the 'system' and 'system_actual' have perfectly matching calendars. Not only are the events identical in properties, but their order and values are perfectly aligned.",
+        "score": 10
+    },
+    {
+        "reasoning": "Both calendars have identical events with every detail, from timing and recurrence to titles and settings. It's a perfect match.",
+        "score": 10
+    },
+    {
+        "reasoning": "The entries from both data points align perfectly in terms of event properties, timing, recurrence, and additional details. This is an exact match.",
+        "score": 10
+    },
+    {
+        "reasoning": "Every attribute in both 'system' and 'system_actual' match, showing a complete correspondence in the event details.",
+        "score": 10
+    },
+    {
+        "reasoning": "Both calendars describe the event with perfectly matched timing, recurrence periods, and settings. Thus, they are perfectly identical.",
+        "score": 10
+    }
+]

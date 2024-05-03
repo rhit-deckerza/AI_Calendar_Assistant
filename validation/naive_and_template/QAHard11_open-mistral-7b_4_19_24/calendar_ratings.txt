@@ -1,0 +1,46 @@
+[
+    {
+        "reasoning": "The 'system_actual' calendar attempts to combine and modify multiple events from 'system' handling many details incorrectly. For instance, it combines Engineering Standup events from multiple configurations into a single configuration with changed dates, also combining Sales Standup events but altering colors and dates. The events are generally recognized but presented incorrectly with significant date errors and wrong colors for one entry.",
+        "score": 3
+    },
+    {
+        "reasoning": "The 'system_actual' calendar significantly changes event configurations and properties from the 'system'. The 'Weekly Team Lunch' is shown as a completely different type (allDay) and additional non-matching entries are present. All modifications and additions significantly diverge from the original set, especially altering fundamental event properties like allDay and adding extra events.",
+        "score": 2
+    },
+    {
+        "reasoning": "The 'system_actual' calendar contains multiple additional unrelated events, missing the one relevant event. Also, the 'Team Building' event incorrectly omits 'startTime' and 'endTime' which are essential for the event definition. These significant omissions and incorrect additions lead to a very low resemblance.",
+        "score": 1
+    },
+    {
+        "reasoning": "The 'system_actual' calendar is empty which fails to represent any of the original events specified in 'system'. This shows a complete absence of data and hence gets the lowest score for accuracy.",
+        "score": 0
+    },
+    {
+        "reasoning": "The 'system_actual' calendar is empty which fails to represent any of the original events specified in 'system'. This shows a complete absence of data and hence gets the lowest score for accuracy.",
+        "score": 0
+    },
+    {
+        "reasoning": "The events in 'system_actual' mostly match the ones in 'system' with exceptions. While title and days of the week remain the same, and the first event's timings are identical, discrepancies in the 'Brainstorming Session' event, such as a color and timing mismatch, lead to a deductions.",
+        "score": 7
+    },
+    {
+        "reasoning": "Although the 'Morning Briefing' event in 'system_actual' missed some recurrence days, all other properties are consistent. This minor variation results in a high score but not perfect due to incomplete replication.",
+        "score": 7
+    },
+    {
+        "reasoning": "While 'system_actual' calendar matches 'system' event in terms of timing and recurrence, the color is different (green in 'system', blue in 'system_actual'). This slight mismatch in non-critical attribute leads to a small deduction.",
+        "score": 9
+    },
+    {
+        "reasoning": "The 'system_actual' calendar attempts to replicate some events from 'system'; however, it modifies key properties like color and timing, which affects the accuracy of replication. Missing recurrence properties in 'system_actual' also contributes to overall discrepancies.",
+        "score": 4
+    },
+    {
+        "reasoning": "\"system_actual\" is empty, so it doesn’t represent any of the 'system' events, resulting in a complete miss of the configured events.",
+        "score": 0
+    },
+    {
+        "reasoning": "\"system_actual\" is empty, so it doesn’t represent any of the 'system' events, resulting in a complete miss of the configured events.",
+        "score": 0
+    }
+]

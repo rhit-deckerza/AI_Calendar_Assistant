@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "All event details match except the 'startRecur' date of 'Weekly Team Meeting' which differs by 5 days. This small variation lowers the score, but the calendars are largely the same.",
+        "score": 9
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The second event in 'system_actual' is an additional event not present in 'system', which results in a notable difference between the calendars.",
+        "score": 5
+    },
+    {
+        "reasoning": "'endTime' of the meeting in 'system_actual' is mistakenly set to the same as 'startTime', making it an invalid time entry. This is a critical error.",
+        "score": 3
+    },
+    {
+        "reasoning": "Both 'startTime' and 'endTime' match, but 'startRecur' differs by four days and 'endRecur' differs by four days as well. These changes result in a lowered score due to incorrect start and end timeline of the recurring event.",
+        "score": 7
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "'endRecur' date in 'system_actual' is off by one day compared to 'system'. This slight discrepancy affects the score minimally.",
+        "score": 9
+    },
+    {
+        "reasoning": "The 'startRecur' date mismatches by three days between 'system_actual' and 'system'. This impacts the continuity of the event, resulting in a lowered score.",
+        "score": 8
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    }
+]

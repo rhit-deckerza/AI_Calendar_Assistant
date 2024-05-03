@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "There are several mismatches in the system_actual compared to the system. Two events are not accounted for, start and end dates for recurrence are incorrect, and event titles and recurrence days also do not match exactly.",
+        "score": 3
+    },
+    {
+        "reasoning": "Most of the events match perfectly except one event, which completely changes the 'startTime', 'endTime', and 'color' and lacking the 'Weekly Team Lunch' event in the system_actual that matches with system directly in terms of timings and color, resulting in a lower score. Although many match, key details are different or missing.",
+        "score": 6
+    },
+    {
+        "reasoning": "Many core attributes such as 'title' and 'daysOfWeek' match across multiple events, but one major issue is the significant discrepancy in timings and misalignment in some events.",
+        "score": 3
+    },
+    {
+        "reasoning": "While the first five events match correctly, the final event has incorrect day and slight time shift which introduces some inconsistency in a largely correct list, thus reducing the score slightly.",
+        "score": 9
+    },
+    {
+        "reasoning": "All attributes correctly match except for the timing for one event. This small discrepancy reduces the score slightly but they remain largely the same.",
+        "score": 8
+    },
+    {
+        "reasoning": "All events and attributes fully match in both content and structure",
+        "score": 10
+    },
+    {
+        "reasoning": "All attributes including start and end time have been altered significantly in the system_actual. The essential structure is similar but core details vary too much.",
+        "score": 5
+    },
+    {
+        "reasoning": "The structure is similar but numerous events are altered either in timing or recurrence specifics, showing a moderate level of discrepancy.",
+        "score": 4
+    },
+    {
+        "reasoning": "Multiple events show discrepancies in timing and recurrence specifics but structure and titles largely match. Additionally, there's a change in the ending time for 'All-Hands Meeting' event, resulting in a moderate mismatch.",
+        "score": 4
+    },
+    {
+        "reasoning": "There is a significant change in 'Junior Staff Training' where recurrence details are altered significantly, impacting the final evaluation.",
+        "score": 7
+    }
+]

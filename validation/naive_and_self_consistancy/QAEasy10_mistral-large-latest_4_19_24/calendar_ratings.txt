@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "The events differ in the 'daysOfWeek' attribute - the 'system' calendar has the event on Thursday whereas the 'system_actual' calendar has it on Tuesday. This significantly changes when the event occurs weekly.",
+        "score": 3
+    },
+    {
+        "reasoning": "While most properties of the first event match, 'system_actual' includes an additional event on Wednesday that is not present in 'system', altering the overall calendar structure significantly.",
+        "score": 6
+    },
+    {
+        "reasoning": "The 'system_actual' calendar is completely empty and missing the events specified in the 'system' calendar. This discrepancy shows a complete lack of intended events.",
+        "score": 1
+    },
+    {
+        "reasoning": "The time, days, recurrence period, and details are correct except the startRecur and endRecur dates which are off by a few days. Most attributes match so the similarity score is moderately high.",
+        "score": 8
+    },
+    {
+        "reasoning": "The 'endTime' is extended by an hour, and the 'startRecur' is misplaced by a day in 'system_actual', making significant changes to the recurrence pattern and event duration.",
+        "score": 7
+    },
+    {
+        "reasoning": "The 'system_actual' has an incorrect 'startRecur' date and has an additional overlapping event that shouldn't exist based on the 'system'. Furthermore, the 'endRecur' dates are mismatched, leading to significant discrepancies.",
+        "score": 5
+    },
+    {
+        "reasoning": "The event information matches in almost all attributes except for the 'title'. Although not fatally incorrect, the differing title represents a different context or purpose, which can be significant depending on usage.",
+        "score": 9
+    },
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    }
+]

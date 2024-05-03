@@ -1,0 +1,1065 @@
+[
+    [
+        {
+            "system": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        3
+                    ],
+                    "startTime": "10:00",
+                    "endTime": "11:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2024-04-30",
+                    "title": "Engineering Standup",
+                    "color": "green"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1
+                    ],
+                    "startTime": "10:00",
+                    "endTime": "11:00",
+                    "startRecur": "2024-05-01",
+                    "endRecur": "2044-05-01",
+                    "title": "Engineering Standup",
+                    "color": "green"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        3
+                    ],
+                    "startTime": "10:00",
+                    "endTime": "11:00",
+                    "startRecur": "2024-05-01",
+                    "endRecur": "2044-05-01",
+                    "title": "Sales Standup",
+                    "color": "green"
+                }
+            ]
+        },
+        {
+            "system_actual": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        3
+                    ],
+                    "startTime": "10:00",
+                    "endTime": "11:00",
+                    "startRecur": "2024-05-01",
+                    "endRecur": "2044-05-01",
+                    "title": "Engineering Standup",
+                    "color": "green"
+                },
+                {
+                    "daysOfWeek": [
+                        1,
+                        3
+                    ],
+                    "startTime": "10:00",
+                    "endTime": "11:00",
+                    "startRecur": "2024-05-01",
+                    "endRecur": "2044-05-01",
+                    "title": "Sales Standup",
+                    "color": "blue"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "system": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        3
+                    ],
+                    "startTime": "11:45",
+                    "endTime": "12:45",
+                    "startRecur": "2024-04-24",
+                    "endRecur": "2044-04-24",
+                    "title": "Weekly Team Lunch",
+                    "color": "yellow"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "startTime": "09:00",
+                    "endTime": "10:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Morning Meeting",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        3,
+                        5
+                    ],
+                    "startTime": "10:30",
+                    "endTime": "11:30",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Project Sync",
+                    "color": "green"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        2,
+                        4
+                    ],
+                    "startTime": "12:00",
+                    "endTime": "13:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Client Calls",
+                    "color": "red"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "startTime": "14:00",
+                    "endTime": "15:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Development Time",
+                    "color": "purple"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "startTime": "16:00",
+                    "endTime": "17:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "End of Day Review",
+                    "color": "orange"
+                }
+            ]
+        },
+        {
+            "system_actual": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "startTime": "09:00",
+                    "endTime": "10:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Morning Meeting",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        3,
+                        5
+                    ],
+                    "startTime": "10:30",
+                    "endTime": "11:30",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Project Sync",
+                    "color": "green"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        2,
+                        4
+                    ],
+                    "startTime": "12:00",
+                    "endTime": "13:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Client Calls",
+                    "color": "red"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "startTime": "14:00",
+                    "endTime": "15:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Development Time",
+                    "color": "purple"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "startTime": "16:00",
+                    "endTime": "17:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "End of Day Review",
+                    "color": "orange"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        3
+                    ],
+                    "startTime": "12:30",
+                    "endTime": "13:30",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Team Lunch",
+                    "color": "blue"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "system": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        2
+                    ],
+                    "startTime": "11:00",
+                    "endTime": "12:00",
+                    "startRecur": "2024-04-23",
+                    "endRecur": "2044-04-23",
+                    "title": "Weekly Team Building",
+                    "color": "blue"
+                }
+            ]
+        },
+        {
+            "system_actual": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1
+                    ],
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Yoga",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        3,
+                        5
+                    ],
+                    "startTime": "09:30",
+                    "endTime": "10:30",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-01-01",
+                    "title": "Sales Meeting",
+                    "color": "green"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        3
+                    ],
+                    "startTime": "11:00",
+                    "endTime": "12:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-01-01",
+                    "title": "Tech Review",
+                    "color": "red"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "startTime": "13:00",
+                    "endTime": "14:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-01-01",
+                    "title": "Lunch Break",
+                    "color": "purple"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "startTime": "15:00",
+                    "endTime": "16:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-01-01",
+                    "title": "Strategy Session",
+                    "color": "orange"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1
+                    ],
+                    "startTime": "14:00",
+                    "endTime": "15:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-01-01",
+                    "title": "Team Building Event",
+                    "color": "blue"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "system": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "title": "Morning Briefing",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        3
+                    ],
+                    "startTime": "10:00",
+                    "endTime": "11:30",
+                    "title": "Department Meeting",
+                    "color": "green"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        2,
+                        4
+                    ],
+                    "startTime": "15:00",
+                    "endTime": "16:00",
+                    "title": "Sales Update",
+                    "color": "red"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1
+                    ],
+                    "startTime": "12:00",
+                    "endTime": "13:30",
+                    "startRecur": "2024-05-06",
+                    "endRecur": "2044-05-06",
+                    "title": "All-Hands Meeting",
+                    "color": "purple"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        5
+                    ],
+                    "startTime": "14:00",
+                    "endTime": "16:00",
+                    "title": "Training Session",
+                    "color": "orange"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        3
+                    ],
+                    "startTime": "09:15",
+                    "endTime": "10:15",
+                    "startRecur": "2024-04-24",
+                    "endRecur": "2044-04-24",
+                    "title": "Client Strategy Meeting",
+                    "color": "turquoise"
+                }
+            ]
+        },
+        {
+            "system_actual": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1
+                    ],
+                    "startTime": "09:30",
+                    "endTime": "10:30",
+                    "title": "Client Strategy Meeting",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "title": "Morning Briefing",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        3
+                    ],
+                    "startTime": "10:00",
+                    "endTime": "11:30",
+                    "title": "Department Meeting",
+                    "color": "green"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        2,
+                        4
+                    ],
+                    "startTime": "15:00",
+                    "endTime": "16:00",
+                    "title": "Sales Update",
+                    "color": "red"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        5
+                    ],
+                    "startTime": "14:00",
+                    "endTime": "16:00",
+                    "title": "Training Session",
+                    "color": "orange"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1
+                    ],
+                    "startTime": "12:00",
+                    "endTime": "13:30",
+                    "startRecur": "2024-05-06",
+                    "endRecur": "2044-05-06",
+                    "title": "All-Hands Meeting",
+                    "color": "purple"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "system": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1
+                    ],
+                    "startTime": "10:00",
+                    "endTime": "11:00",
+                    "title": "Management Meeting",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        4
+                    ],
+                    "startTime": "14:00",
+                    "endTime": "15:30",
+                    "title": "Technical Review",
+                    "color": "green"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        2
+                    ],
+                    "startTime": "13:00",
+                    "endTime": "15:00",
+                    "startRecur": "2024-04-30",
+                    "endRecur": "2044-04-30",
+                    "title": "Executive Session",
+                    "color": "red"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        5
+                    ],
+                    "startTime": "11:00",
+                    "endTime": "12:00",
+                    "startRecur": "2024-05-10",
+                    "endRecur": "2044-05-10",
+                    "title": "HR Update",
+                    "color": "orange"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        3
+                    ],
+                    "startTime": "10:30",
+                    "endTime": "12:00",
+                    "startRecur": "2024-04-24",
+                    "endRecur": "2044-04-24",
+                    "title": "Junior Staff Training",
+                    "color": "purple"
+                }
+            ]
+        },
+        {
+            "system_actual": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        3,
+                        5
+                    ],
+                    "startTime": "11:00",
+                    "endTime": "12:00",
+                    "startRecur": "2024-04-21",
+                    "endRecur": "2044-04-21",
+                    "title": "Bi-Weekly Training for Junior Staff",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1
+                    ],
+                    "startTime": "10:00",
+                    "endTime": "11:00",
+                    "title": "Management Meeting",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        4
+                    ],
+                    "startTime": "14:00",
+                    "endTime": "15:30",
+                    "title": "Technical Review",
+                    "color": "green"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        2
+                    ],
+                    "startTime": "13:00",
+                    "endTime": "15:00",
+                    "startRecur": "2024-04-30",
+                    "endRecur": "2044-04-30",
+                    "title": "Executive Session",
+                    "color": "red"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        5
+                    ],
+                    "startTime": "11:00",
+                    "endTime": "12:00",
+                    "startRecur": "2024-05-10",
+                    "endRecur": "2044-05-10",
+                    "title": "HR Update",
+                    "color": "orange"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "system": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1
+                    ],
+                    "startTime": "09:00",
+                    "endTime": "10:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Strategy Meeting",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        3
+                    ],
+                    "startTime": "14:00",
+                    "endTime": "15:00",
+                    "startRecur": "2024-04-24",
+                    "endRecur": "2044-04-24",
+                    "title": "Brainstorming Session",
+                    "color": "green"
+                }
+            ]
+        },
+        {
+            "system_actual": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1
+                    ],
+                    "startTime": "09:00",
+                    "endTime": "10:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Strategy Meeting",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        3
+                    ],
+                    "startTime": "13:00",
+                    "endTime": "14:00",
+                    "startRecur": "2024-04-03",
+                    "endRecur": "2044-04-03",
+                    "title": "Brainstorming Session",
+                    "color": "blue"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "system": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Morning Briefing",
+                    "color": "blue"
+                }
+            ]
+        },
+        {
+            "system_actual": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "title": "Morning Briefing",
+                    "color": "blue"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "system": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        2,
+                        4
+                    ],
+                    "startTime": "15:00",
+                    "endTime": "16:00",
+                    "startRecur": "2024-04-02",
+                    "endRecur": "2044-04-02",
+                    "title": "Project Update",
+                    "color": "green"
+                }
+            ]
+        },
+        {
+            "system_actual": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        2,
+                        4
+                    ],
+                    "startTime": "15:00",
+                    "endTime": "16:00",
+                    "startRecur": "2024-04-02",
+                    "endRecur": "2044-04-02",
+                    "title": "Project Update",
+                    "color": "green"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "system": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "startTime": "09:00",
+                    "endTime": "10:00",
+                    "title": "Daily Standup",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        3,
+                        5
+                    ],
+                    "startTime": "10:30",
+                    "endTime": "11:30",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Project Sync",
+                    "color": "green"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1
+                    ],
+                    "startTime": "15:00",
+                    "endTime": "16:00",
+                    "startRecur": "2024-04-22",
+                    "endRecur": "2044-04-22",
+                    "title": "Marketing Review",
+                    "color": "red"
+                }
+            ]
+        },
+        {
+            "system_actual": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1
+                    ],
+                    "startTime": "13:00",
+                    "endTime": "14:00",
+                    "title": "Weekly Marketing Review",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "startTime": "09:00",
+                    "endTime": "10:00",
+                    "title": "Daily Standup",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        3,
+                        5
+                    ],
+                    "startTime": "10:30",
+                    "endTime": "11:30",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Project Sync",
+                    "color": "green"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "system": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        3
+                    ],
+                    "startTime": "14:00",
+                    "endTime": "15:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Technical Discussion",
+                    "color": "green"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        2,
+                        4,
+                        5
+                    ],
+                    "startTime": "13:00",
+                    "endTime": "14:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Staff Meeting",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        5
+                    ],
+                    "startTime": "11:00",
+                    "endTime": "12:00",
+                    "startRecur": "2024-05-03",
+                    "endRecur": "2044-05-03",
+                    "title": "Monthly All-Hands Meeting",
+                    "color": "orange"
+                }
+            ]
+        },
+        {
+            "system_actual": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        3
+                    ],
+                    "startTime": "14:00",
+                    "endTime": "15:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Technical Discussion",
+                    "color": "green"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        2,
+                        4,
+                        5
+                    ],
+                    "startTime": "13:00",
+                    "endTime": "14:00",
+                    "startRecur": "2024-04-01",
+                    "endRecur": "2044-04-01",
+                    "title": "Staff Meeting",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        5
+                    ],
+                    "startTime": "09:00",
+                    "endTime": "10:00",
+                    "startRecur": "2024-04-05",
+                    "endRecur": "2044-03-03",
+                    "title": "All-Hands Meeting",
+                    "color": "blue"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "system": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1
+                    ],
+                    "startTime": "10:00",
+                    "endTime": "11:00",
+                    "title": "Management Meeting",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        4
+                    ],
+                    "startTime": "14:00",
+                    "endTime": "15:30",
+                    "title": "Technical Review",
+                    "color": "green"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        2
+                    ],
+                    "startTime": "13:00",
+                    "endTime": "15:00",
+                    "startRecur": "2024-04-30",
+                    "endRecur": "2044-04-30",
+                    "title": "Executive Session",
+                    "color": "red"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        5
+                    ],
+                    "startTime": "11:00",
+                    "endTime": "12:00",
+                    "startRecur": "2024-05-10",
+                    "endRecur": "2044-05-10",
+                    "title": "HR Update",
+                    "color": "orange"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        3
+                    ],
+                    "startTime": "10:30",
+                    "endTime": "12:00",
+                    "startRecur": "2024-04-24",
+                    "endRecur": "2044-04-24",
+                    "title": "Junior Staff Training",
+                    "color": "purple"
+                }
+            ]
+        },
+        {
+            "system_actual": [
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1,
+                        3,
+                        5
+                    ],
+                    "startTime": "11:00",
+                    "endTime": "12:00",
+                    "title": "Training Session for Junior Staff",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        1
+                    ],
+                    "startTime": "10:00",
+                    "endTime": "11:00",
+                    "title": "Management Meeting",
+                    "color": "blue"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        4
+                    ],
+                    "startTime": "14:00",
+                    "endTime": "15:30",
+                    "title": "Technical Review",
+                    "color": "green"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        2
+                    ],
+                    "startTime": "13:00",
+                    "endTime": "15:00",
+                    "startRecur": "2024-04-30",
+                    "endRecur": "2044-04-30",
+                    "title": "Executive Session",
+                    "color": "red"
+                },
+                {
+                    "allDay": false,
+                    "daysOfWeek": [
+                        5
+                    ],
+                    "startTime": "11:00",
+                    "endTime": "12:00",
+                    "startRecur": "2024-05-10",
+                    "endRecur": "2044-05-10",
+                    "title": "HR Update",
+                    "color": "orange"
+                }
+            ]
+        }
+    ]
+]

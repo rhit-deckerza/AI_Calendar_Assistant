@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The only difference between the two calendar entries is the start and end dates of recurrence, which are off by one day in the 'system_actual'. While the duration and repetition cycle match, the shifted dates slightly affect the long-term occurrence of the events.",
+        "score": 9
+    },
+    {
+        "reasoning": "The events in both 'system' and 'system_actual' are completely identical in terms of timing, recurrence, title, and color for all events listed.",
+        "score": 10
+    },
+    {
+        "reasoning": "The 'system' and 'system_actual' entries are completely identical which includes event duration, recurrence, title, and color.",
+        "score": 10
+    },
+    {
+        "reasoning": "There is an additional event in 'system_actual' that is not present in 'system'. This additional event ('Language Class') is not specified in the original system, which means the calendars do not match perfectly.",
+        "score": 7
+    },
+    {
+        "reasoning": "The entries in both 'system' and 'system_actual' match perfectly across all aspects including timing, recurrence, title, and color.",
+        "score": 10
+    },
+    {
+        "reasoning": "The event in 'system_actual' has a different end time and different dates of recurrence compared to the 'system'. These discrepancies affect the accuracy of the schedule as well as the long-term alignment of the events, thus reducing the similarity significantly.",
+        "score": 6
+    },
+    {
+        "reasoning": "The entries in both 'system' and 'system_actual' are perfectly identical, correctly matching the event time, day, recurrence, title, and color.",
+        "score": 10
+    },
+    {
+        "reasoning": "The recurrence dates in 'system_actual' are significantly misaligned with those in 'system'. The 'startRecur' and 'endRecur' dates do not coincide at all, causing the recurring events to occur at entirely different periods.",
+        "score": 4
+    },
+    {
+        "reasoning": "The recurrence dates ('startRecur' and 'endRecur') in 'system_actual' differ from those in 'system'. This misalignment causes the entire range of occurrences to be shifted, which impacts the long-term scheduling severely.",
+        "score": 4
+    },
+    {
+        "reasoning": "The events in both 'system' and 'system_actual' are completely identical including their recurrence, timing, duration, and details such as title and color.",
+        "score": 10
+    }
+]

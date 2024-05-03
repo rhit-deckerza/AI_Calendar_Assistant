@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The calendars are completely identical",
+        "score": 10
+    },
+    {
+        "reasoning": "Both events are present, but the 'Weekly Team Meeting' in the 'system_actual' has a different 'startRecur' and 'endRecur' values, which are significant for the scheduling of this event. All other attributes match 'system', which means most but not all critical aspects align.",
+        "score": 8
+    },
+    {
+        "reasoning": "The single event in both calendars completely matches in all attributes.",
+        "score": 10
+    },
+    {
+        "reasoning": "'system_actual' contains an extra event 'Language Class' which is not in 'system' affecting the format and use, making the calendars significantly different in content.",
+        "score": 5
+    },
+    {
+        "reasoning": "While most attributes are correct, the 'endTime' for 'Marketing Meetings' in 'system_actual' incorrectly matches 'startTime', which is a glaring error in scheduling, making the event illogical as it shows no duration.",
+        "score": 6
+    },
+    {
+        "reasoning": "The event dates 'startRecur' and 'endRecur' in 'system_actual' do not align with 'system', shifting the event outside of its intended range and duration by several days. This impacts the scheduling accuracy.",
+        "score": 7
+    },
+    {
+        "reasoning": "The two events match perfectly in schedule and details. However, the event title's capitalization differs ('Family Lunch' vs. 'Family lunch'). Given titles might be displayed or used in reminders, this minor inconsistency might affect user perception or sorting algorithms slightly.",
+        "score": 9
+    },
+    {
+        "reasoning": "End recurrence dates ('endRecur') do not match as 'system_actual' has the date set a day later than the actual end 'system'. This shifts expected recurrence cycles, which could affect future schedules.",
+        "score": 8
+    },
+    {
+        "reasoning": "'endRecur' dates are one day off between system and system_actual. Considering this could affect the cycle of recurrence, these small discrepancies could lead to different schedules long-term.",
+        "score": 8
+    },
+    {
+        "reasoning": "Both system and system_actual are fully identical for the given event in terms of time, recurrence, title, and attributes.",
+        "score": 10
+    }
+]

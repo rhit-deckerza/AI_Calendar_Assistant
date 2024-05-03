@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The 'system_actual' JSON is missing and cannot contain any events to compare with 'system'. Therefore, it is entirely different.",
+        "score": 1
+    },
+    {
+        "reasoning": "While the first event 'Morning Meditation' matches perfectly in both calendars, the second event 'Weekly Team Meeting' differs in the day it recurs (Wednesday vs. Tuesday) and the title ('Weekly Team Meetings' vs. 'Weekly Team Meeting'). Minor discrepancies lead to a deduction.",
+        "score": 7
+    },
+    {
+        "reasoning": "The calendars are completely identical, with all attributes matching for the event 'Weekly Team Meeting'.",
+        "score": 10
+    },
+    {
+        "reasoning": "Although the 'Morning Meditation' matches, the 'system_actual' introduces an additional event 'Language Class' not present in 'system'. This additional event causes the calendars not to align fully.",
+        "score": 8
+    },
+    {
+        "reasoning": "The calendars are completely identical, with all attributes for the event 'Marketing Meetings' matching exactly.",
+        "score": 10
+    },
+    {
+        "reasoning": "The attributes for the event 'Yoga' match except for the event start and end dates ('startRecur' and 'endRecur'; '2024-04-26' vs '2024-04-22'). This calendrical discrepancy affects the actual scheduling.",
+        "score": 8
+    },
+    {
+        "reasoning": "The 'startRecur' and 'endRecur' dates are mismatched by one day ('2024-04-21 and 2044-04-21' vs. '2024-04-20 and 2044-04-20') for the event 'Family Lunch'. This slight mismatch leads to a reduction in score.",
+        "score": 8
+    },
+    {
+        "reasoning": "The calendars are completely identical, with all attributes for the event 'Marketing Meetings' matching perfectly.",
+        "score": 10
+    },
+    {
+        "reasoning": "While the schedule details are identical for 'Work' vs. 'Work hours', the titles slightly differ, leading to a reduction in score.",
+        "score": 9
+    },
+    {
+        "reasoning": "The calendars are completely identical, with all attributes for the event 'Family Lunch' matching perfectly.",
+        "score": 10
+    }
+]

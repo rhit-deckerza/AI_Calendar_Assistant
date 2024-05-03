@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The first calendar pair should receive a score of 4. The count of events differs as system_actual contains two events compared to system with three. The first event matches perfectly across both. However, the second event in system_actual seems to be a combination of the second and third events in the system, with discrepancies in daysOfWeek, endRecur, and color. Title 'Sales Standup' replaces 'Engineering Standup', indicating inconsistency in event details as well. Such considerable mismatches decrease the score significantly.",
+        "score": 4
+    },
+    {
+        "reasoning": "For the second calendar pair, I assign a score of 5. While five events out of six match exactly in timing, recurrence, and title, discrepancies are present in 'Weekly Team Lunch' in system_actual being listed with wrong day, timing, and color. The misrepresentation and missing event reduce the matching score.",
+        "score": 5
+    },
+    {
+        "reasoning": "The third calendar pair should score 0 due to a fundamental mismatch in the number of events and key event details like timing and recurrence that dramatically deviate from the original. Notably, an additional 'Work' event spans an entire day incorrectly, and several other events have missing recurrence details, leading to a score of 0.",
+        "score": 0
+    },
+    {
+        "reasoning": "The fourth calendar pair gains a score of 7. All six events from the system are matched in system_actual, with titles and times aligning closely. However, mismatches in 'Junior Staff Training' details (incorrect daysOfWeek) and 'Yoga' not in the original set slightly reduce accuracy.",
+        "score": 7
+    },
+    {
+        "reasoning": "For the fifth calendar pair, the score is 3. System_actual shows a significant deviation in the number of events, recurrence rules, and the overall structure from the original. Most notably, an insufficient match in the 'Brainstorming Session' daytime, color, and incorrect inclusion of a sweeping 'Work' event contribute negatively.",
+        "score": 3
+    },
+    {
+        "reasoning": "The sixth calendar pair scores 9. Both calendars exhibit a high degree of similarity with all events matching precisely in time, days, and titles, except for an added 'Work' event in system_actual without recurrence details that don't affect critical meetings.",
+        "score": 9
+    },
+    {
+        "reasoning": "Seventh calendar pair, I rate a 0 because there are no events listed in system_actual, thus it fails to make any valid or meaningful comparison with the system.",
+        "score": 0
+    },
+    {
+        "reasoning": "For the eighth calendar pair, despite several matches, minor discrepancies lead to a score of 6. Discrepancies like 'Weekly Marketing Review' having different details and missing recurrence for disruptive events, especially 'Marketing Review', impact the accuracy.",
+        "score": 6
+    },
+    {
+        "reasoning": "The ninth calendar pair scores 5. Partial matches for 'Technical Discussion' and 'Staff Meeting' alongside different details for 'All-Hands Meeting' notably disrupt score with varied details in times, recurrences, and incomplete event substitutions.",
+        "score": 5
+    },
+    {
+        "reasoning": "The tenth calendar pair deserves a score of 8, as most events align well between calendars. There is a strong correlation in event titles, timings, and dates except for 'Junior Staff Training' being on mismatched days and the additional 'Work' event that spans the day.",
+        "score": 8
+    }
+]

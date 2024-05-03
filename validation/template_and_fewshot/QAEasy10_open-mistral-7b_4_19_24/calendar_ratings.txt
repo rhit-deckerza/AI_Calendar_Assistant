@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The system_actual object is empty and does not provide any information, failing to replicate any attributes from the system calendar.",
+        "score": 0
+    },
+    {
+        "reasoning": "The system_actual contained only one event whereas the system contained two. The event in system_actual matches one event from system, but misses the other entirely. Partial accuracy is recognized, but incompleteness significantly lowers the score.",
+        "score": 4
+    },
+    {
+        "reasoning": "The system_actual contains three events, only one of which matches an event in system. However, the system_actual also contains additional events not listed in the system. Overloads with unnecessary additional events reduce similarity.",
+        "score": 5
+    },
+    {
+        "reasoning": "The system_actual object is empty and does not provide any information, failing to replicate any attributes from the system calendar.",
+        "score": 0
+    },
+    {
+        "reasoning": "The system_actual is identical to system, matching all event attributes and contains the exact necessary details with no additional or missing information.",
+        "score": 10
+    },
+    {
+        "reasoning": "system_actual has additional events and there is a mismatch in the daysOfWeek for one event; 'Yoga' in system is set for day 5 but in system_actual it's for day 0. Additional and mismatched events reduce the score.",
+        "score": 2
+    },
+    {
+        "reasoning": "Although the 'Family Lunch' matches, the system_actual includes an additional event 'Work' that is not required by system. This additional event affects the direct comparison negatively.",
+        "score": 6
+    },
+    {
+        "reasoning": "The system_actual completely disregards the original intent of the system event 'Marketing Meetings', replacing it with unrelated events. Major discrepancies in all event attributes resulting in no similarity",
+        "score": 0
+    },
+    {
+        "reasoning": "The dates and other attributes match, but because the endRecurrence is set as null in system_actual whereas it should have a specific set date like in system, the score is slightly reduced.",
+        "score": 9
+    },
+    {
+        "reasoning": "The daysOfWeek attribute in system_actual is empty which fails to match the specifics of the corresponding event in system. Major attribute mismatch leads to a significant score reduction.",
+        "score": 1
+    }
+]

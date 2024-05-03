@@ -1,0 +1,50 @@
+[
+    {
+        "reasoning": "The calendar events in system_actual are significantly altered and not properly corresponding to those in system. The titles and timings are mostly correct. However, the days of some events differ significantly, their color for some events have changed, and recurrence times and start dates have discrepancies. Thus, it affects the applicability of system_actual as a viable representation of system.",
+        "score": 3
+    },
+    {
+        "reasoning": "The calendar events in system_actual have mostly the same timing, day patterns, and color except for 'Weekly Team Lunch' where the time is not matched (shifted from 11:45-12:45 to 13:00-14:00). All other properties of the remaining events were correctly aligned, which holds substantial accuracy, hence the score.",
+        "score": 8
+    },
+    {
+        "reasoning": "The system_actual has multiple additional events and changes such as different timings (changed all of them), and the content of one event significantly changed its timing ('Team Building'). None of the specified events in the system were perfectly replicated in system_actual. Given the substantial deviations in properties and structure, the score is lowered while still recognizing some consistency in titles.",
+        "score": 2
+    },
+    {
+        "reasoning": "While all events are listed, there are issues such as the day patterns for 'Client Strategy Meeting' and a change in recurrence dates for some events. This misalignment affects scheduling consistency but preserves the general structure and most attributes. Hence, it leads to a decent but not high score.",
+        "score": 7
+    },
+    {
+        "reasoning": "Most of the events in the system_actual have matching details from the system, but the Junior Staff Training has a changed day pattern and color, reducing the overall similarity. Given that most other attributes including scheduling and colors are consistent, a moderate score is administered.",
+        "score": 7
+    },
+    {
+        "reasoning": "The calendars here show almost perfect alignment. All parameters for the events match except for the recurrence start and end date for 'Brainstorming Session' which is off by days. This minor issue ones down the score slightly.",
+        "score": 9
+    },
+    {
+        "reasoning": "Perfect alignment of all aspects of the single event against what is listed: day pattern, time, title, color, and recurrence duration match exactly.",
+        "score": 10
+    },
+    {
+        "reasoning": "There is a mismatch in the timings of 'Project Update,' which deviates by two hours compared to the system. All other attributes are correctly mirrored.",
+        "score": 6
+    },
+    {
+        "reasoning": "The system_actual reproduces the first two events accurately but changes the timing and adds a slight change to the title of the thirds event ('Marketing Review' to 'Weekly Marketing Review'), indicating discrepancies that may affect specific use cases, particularly around marketing reviews, hence the score.",
+        "score": 8
+    },
+    {
+        "reasoning": "All events either completely match or are accurately representing the structure of the system apart from the alteration in timing and day pattern of the Junior Staff Training, impacting the alignment slightly. Hence, reduces the perfect score slightly.",
+        "score": 8
+    },
+    {
+        "reasoning": "While some events are aligned in title, there is significant alteration including changes in the day pattern of 'Junior Staff Training,' as well as incorrect time spans for 'All Hands Meeting' which impacts functional alignment of the schedules.",
+        "score": 6
+    },
+    {
+        "reasoning": "The alignment of events from system to system_actual is very high, with only the 'Junior Staff Training' having a different timing and day. However, all necessary attributes like title, allDay, color, and most repetitive patterns are preserved.",
+        "score": 8
+    }
+]

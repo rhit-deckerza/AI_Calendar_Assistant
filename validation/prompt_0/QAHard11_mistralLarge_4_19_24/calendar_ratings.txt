@@ -1,0 +1,42 @@
+[
+    {
+        "reasoning": "The first comparison between system and system_actual shows that one of the events has a different recurrence frequency and differing days of the week. The second event type has been confused between Engineering and Sales across different systems. Also, all system and system_actual events have different endRecur dates, leading to deviations from the system set.",
+        "score": 2
+    },
+    {
+        "reasoning": "System_actual is missing the 'Weekly Team Lunch' event entirely and has times of the 'Team Lunch' event improperly altered. All other events in system_actual have matched with system in all attributes except this missing event and one modified event, resulting in a substantial difference.",
+        "score": 5
+    },
+    {
+        "reasoning": "The calendar events in system_actual significantly deviate from the system calendar. Multiple differences in daysOfWeek, timing and even the titles of events lead to a radically different timetable than initially set by the system.",
+        "score": 2
+    },
+    {
+        "reasoning": "While the majority of events between system and system_actual have the same attributes, there is a significant discrepancy in the recurring days for 'Client Strategy Meeting' and a typographical error in the title along with a color change in 'Junior Staff Training', following distinctive differences.",
+        "score": 6
+    },
+    {
+        "reasoning": "System_actual has a significant mismatch in one of the events compared to the system, where the time and color of the 'Brainstorming Session' have been altered incorrectly. This leads to a noticeable difference in the scheduling.",
+        "score": 7
+    },
+    {
+        "reasoning": "While the days of the week, recurrence, and titles match, the absence of 'startRecur' and 'endRecur' attribution in system_actual leads to a deviation. However, due to accurate representation of other attributes, the error is somewhat mitigated.",
+        "score": 8
+    },
+    {
+        "reasoning": "The event times have been altered in system_actual relative to the system event, causing a mismatch in the comparison of the calendars with discrepancies in event timing.",
+        "score": 6
+    },
+    {
+        "reasoning": "The number of events matches perfectly, however, one event's time and color were not accurately transferred to system_actual and the meeting on Monday is inaccurately scheduled at the wrong hour and has a different title and color.",
+        "score": 5
+    },
+    {
+        "reasoning": "All events are perfectly aligned in attributes except for one, the 'All-Hands Meeting', which is not only scheduled at a different time but also has a different 'startRecur' and 'endRecur', leading to a deviation in recurrence and timing.",
+        "score": 7
+    },
+    {
+        "reasoning": "Each event in the system_actual calendar matches its counterpart in the system calendar. However, the final event 'Junior Staff Training' has its timing and recurrence modified, leading to its misalignment with the system event.",
+        "score": 7
+    }
+]
