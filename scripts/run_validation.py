@@ -6,9 +6,9 @@ import os
 from mistralai.client import MistralClient
 from mistralai.models.chat_completion import ChatMessage
 # Set up your OpenAI API key
-openai.api_key = 'sk-proj-95TEYaya4g0Tg3yyUC6qT3BlbkFJjH0lAVsfqNerC7fvlbN0'
+openai.api_key = 'sk-proj-'
 
-mistral_api_key = "Rk4s7EYksi0A8zi7l56ZFO2PjzLq7rnZ"
+mistral_api_key = ""
 
 def read_json_from_file(file_path):
     """Reads a JSON file and returns the data."""
